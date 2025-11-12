@@ -63,7 +63,7 @@
 
 **预部署实例（不保证可靠性）：`proxies.pp.ua`** - 开箱即用，无需部署！
 
-**URL 转换器：**[**`xuc.xi-xu.me`**](https://xuc.xi-xu.me) - 一键转换任意支持平台的 URL 为 Xget 的加速格式！
+**URL 转换器：**[**`proxies.pp.ua`**](https://proxies.pp.ua) - 一键转换任意支持平台的 URL 为 Xget 的加速格式！
 
 > **⚡ 立即体验极速下载**：无需注册，无需配置，直接使用即可感受飞一般的下载速度！
 
@@ -142,6 +142,7 @@
 ## 📖 URL 转换规则
 
 使用预部署实例 **`proxies.pp.ua`或`proxies.ip-ddns.com`或`proxys.ip-ddns.com`或`proxies.codelib.re`或`proxys.codelib.re`** 或你自己部署的实例，只需简单替换域名并添加平台前缀：
+
 其中**`proxies.codelib.re`和`proxys.codelib.re`**使用CDN加速更加稳定
 ### 转换格式
 
