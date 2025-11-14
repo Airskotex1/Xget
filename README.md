@@ -141,9 +141,7 @@
 
 ## 📖 URL 转换规则
 
-使用预部署实例 **`proxies.pp.ua`或`proxies.ip-ddns.com`或`proxys.ip-ddns.com`或`proxies.codelib.re`或`proxys.codelib.re`** 或你自己部署的实例，只需简单替换域名并添加平台前缀：
-
-其中**`proxies.codelib.re`和`proxys.codelib.re`**使用CDN加速更加稳定
+使用预部署实例 **`proxies.pp.ua`或`xget.proxies.ip-ddns.com`或`xget.proxys.ip-ddns.com`或`proxies.codelib.re`或`proxys.codelib.re`** 或你自己部署的实例，只需简单替换域名并添加平台前缀：
 ### 转换格式
 
 | 平台 | 平台前缀 | 原始 URL 格式 | 加速 URL 格式 |
