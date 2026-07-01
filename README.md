@@ -91,7 +91,7 @@ uses Xget.
 
 ## Quick Start
 
-**Pre-deployed Instance: `xget.xi-xu.me`** - For evaluation and trial only,
+**Pre-deployed Instance: `xget.me`** - For evaluation and trial only,
 deploy your own instance for production or availability-sensitive workloads
 
 > [!WARNING]
@@ -296,47 +296,47 @@ classDiagram
 
 ## URL Conversion Rules
 
-Using the pre-deployed instance **`xget.xi-xu.me`** or your own deployed
+Using the pre-deployed instance **`xget.me`** or your own deployed
 instance, simply replace the domain and add the platform prefix:
 
 ### Conversion Format
 
 | Platform               | Platform Prefix | Original URL Format                                                  | Accelerated URL Format                                                            |
 | ---------------------- | --------------- | -------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| GitHub                 | `gh`            | `https://github.com/...`                                             | `https://xget.xi-xu.me/gh/...`                                                    |
-| GitHub Gist            | `gist`          | `https://gist.github.com/...`                                        | `https://xget.xi-xu.me/gist/...`                                                  |
-| GitLab                 | `gl`            | `https://gitlab.com/...`                                             | `https://xget.xi-xu.me/gl/...`                                                    |
-| Gitea                  | `gitea`         | `https://gitea.com/...`                                              | `https://xget.xi-xu.me/gitea/...`                                                 |
-| Codeberg               | `codeberg`      | `https://codeberg.org/...`                                           | `https://xget.xi-xu.me/codeberg/...`                                              |
-| SourceForge            | `sf`            | `https://sourceforge.net/...`                                        | `https://xget.xi-xu.me/sf/...`                                                    |
-| AOSP                   | `aosp`          | `https://android.googlesource.com/...`                               | `https://xget.xi-xu.me/aosp/...`                                                  |
-| Hugging Face           | `hf`            | `https://huggingface.co/...`                                         | `https://xget.xi-xu.me/hf/...`                                                    |
-| Civitai                | `civitai`       | `https://civitai.com/...`                                            | `https://xget.xi-xu.me/civitai/...`                                               |
-| npm                    | `npm`           | `https://registry.npmjs.org/...`                                     | `https://xget.xi-xu.me/npm/...`                                                   |
-| PyPI                   | `pypi`          | `https://pypi.org/...`                                               | `https://xget.xi-xu.me/pypi/...`                                                  |
-| conda                  | `conda`         | `https://repo.anaconda.com/...` and `https://conda.anaconda.org/...` | `https://xget.xi-xu.me/conda/...` and `https://xget.xi-xu.me/conda/community/...` |
-| Maven                  | `maven`         | `https://repo1.maven.org/...`                                        | `https://xget.xi-xu.me/maven/...`                                                 |
-| Apache                 | `apache`        | `https://downloads.apache.org/...`                                   | `https://xget.xi-xu.me/apache/...`                                                |
-| Gradle                 | `gradle`        | `https://plugins.gradle.org/...`                                     | `https://xget.xi-xu.me/gradle/...`                                                |
-| Homebrew               | `homebrew`      | `https://github.com/Homebrew/...`                                    | `https://xget.xi-xu.me/homebrew/...`                                              |
-| RubyGems               | `rubygems`      | `https://rubygems.org/...`                                           | `https://xget.xi-xu.me/rubygems/...`                                              |
-| CRAN                   | `cran`          | `https://cran.r-project.org/...`                                     | `https://xget.xi-xu.me/cran/...`                                                  |
-| CPAN                   | `cpan`          | `https://www.cpan.org/...`                                           | `https://xget.xi-xu.me/cpan/...`                                                  |
-| CTAN                   | `ctan`          | `https://tug.ctan.org/...`                                           | `https://xget.xi-xu.me/ctan/...`                                                  |
-| Go Modules             | `golang`        | `https://proxy.golang.org/...`                                       | `https://xget.xi-xu.me/golang/...`                                                |
-| NuGet                  | `nuget`         | `https://api.nuget.org/...`                                          | `https://xget.xi-xu.me/nuget/...`                                                 |
-| Rust Crates            | `crates`        | `https://crates.io/...`                                              | `https://xget.xi-xu.me/crates/...`                                                |
-| Packagist              | `packagist`     | `https://repo.packagist.org/...`                                     | `https://xget.xi-xu.me/packagist/...`                                             |
-| Flathub                | `flathub`       | `https://dl.flathub.org/...`                                         | `https://xget.xi-xu.me/flathub/...`                                               |
-| Debian                 | `debian`        | `https://deb.debian.org/...`                                         | `https://xget.xi-xu.me/debian/...`                                                |
-| Ubuntu                 | `ubuntu`        | `https://archive.ubuntu.com/...`                                     | `https://xget.xi-xu.me/ubuntu/...`                                                |
-| Fedora                 | `fedora`        | `https://mirrors.kernel.org/fedora/...`                              | `https://xget.xi-xu.me/fedora/...`                                                |
-| Rocky Linux            | `rocky`         | `https://download.rockylinux.org/...`                                | `https://xget.xi-xu.me/rocky/...`                                                 |
-| openSUSE               | `opensuse`      | `https://download.opensuse.org/...`                                  | `https://xget.xi-xu.me/opensuse/...`                                              |
-| Arch Linux             | `arch`          | `https://geo.mirror.pkgbuild.com/...`                                | `https://xget.xi-xu.me/arch/...`                                                  |
-| arXiv                  | `arxiv`         | `https://arxiv.org/...`                                              | `https://xget.xi-xu.me/arxiv/...`                                                 |
-| F-Droid                | `fdroid`        | `https://f-droid.org/...`                                            | `https://xget.xi-xu.me/fdroid/...`                                                |
-| Jenkins Plugins        | `jenkins`       | `https://updates.jenkins.io/...`                                     | `https://xget.xi-xu.me/jenkins/...`                                               |
+| GitHub                 | `gh`            | `https://github.com/...`                                             | `https://xget.me/gh/...`                                                    |
+| GitHub Gist            | `gist`          | `https://gist.github.com/...`                                        | `https://xget.me/gist/...`                                                  |
+| GitLab                 | `gl`            | `https://gitlab.com/...`                                             | `https://xget.me/gl/...`                                                    |
+| Gitea                  | `gitea`         | `https://gitea.com/...`                                              | `https://xget.me/gitea/...`                                                 |
+| Codeberg               | `codeberg`      | `https://codeberg.org/...`                                           | `https://xget.me/codeberg/...`                                              |
+| SourceForge            | `sf`            | `https://sourceforge.net/...`                                        | `https://xget.me/sf/...`                                                    |
+| AOSP                   | `aosp`          | `https://android.googlesource.com/...`                               | `https://xget.me/aosp/...`                                                  |
+| Hugging Face           | `hf`            | `https://huggingface.co/...`                                         | `https://xget.me/hf/...`                                                    |
+| Civitai                | `civitai`       | `https://civitai.com/...`                                            | `https://xget.me/civitai/...`                                               |
+| npm                    | `npm`           | `https://registry.npmjs.org/...`                                     | `https://xget.me/npm/...`                                                   |
+| PyPI                   | `pypi`          | `https://pypi.org/...`                                               | `https://xget.me/pypi/...`                                                  |
+| conda                  | `conda`         | `https://repo.anaconda.com/...` and `https://conda.anaconda.org/...` | `https://xget.me/conda/...` and `https://xget.me/conda/community/...` |
+| Maven                  | `maven`         | `https://repo1.maven.org/...`                                        | `https://xget.me/maven/...`                                                 |
+| Apache                 | `apache`        | `https://downloads.apache.org/...`                                   | `https://xget.me/apache/...`                                                |
+| Gradle                 | `gradle`        | `https://plugins.gradle.org/...`                                     | `https://xget.me/gradle/...`                                                |
+| Homebrew               | `homebrew`      | `https://github.com/Homebrew/...`                                    | `https://xget.me/homebrew/...`                                              |
+| RubyGems               | `rubygems`      | `https://rubygems.org/...`                                           | `https://xget.me/rubygems/...`                                              |
+| CRAN                   | `cran`          | `https://cran.r-project.org/...`                                     | `https://xget.me/cran/...`                                                  |
+| CPAN                   | `cpan`          | `https://www.cpan.org/...`                                           | `https://xget.me/cpan/...`                                                  |
+| CTAN                   | `ctan`          | `https://tug.ctan.org/...`                                           | `https://xget.me/ctan/...`                                                  |
+| Go Modules             | `golang`        | `https://proxy.golang.org/...`                                       | `https://xget.me/golang/...`                                                |
+| NuGet                  | `nuget`         | `https://api.nuget.org/...`                                          | `https://xget.me/nuget/...`                                                 |
+| Rust Crates            | `crates`        | `https://crates.io/...`                                              | `https://xget.me/crates/...`                                                |
+| Packagist              | `packagist`     | `https://repo.packagist.org/...`                                     | `https://xget.me/packagist/...`                                             |
+| Flathub                | `flathub`       | `https://dl.flathub.org/...`                                         | `https://xget.me/flathub/...`                                               |
+| Debian                 | `debian`        | `https://deb.debian.org/...`                                         | `https://xget.me/debian/...`                                                |
+| Ubuntu                 | `ubuntu`        | `https://archive.ubuntu.com/...`                                     | `https://xget.me/ubuntu/...`                                                |
+| Fedora                 | `fedora`        | `https://mirrors.kernel.org/fedora/...`                              | `https://xget.me/fedora/...`                                                |
+| Rocky Linux            | `rocky`         | `https://download.rockylinux.org/...`                                | `https://xget.me/rocky/...`                                                 |
+| openSUSE               | `opensuse`      | `https://download.opensuse.org/...`                                  | `https://xget.me/opensuse/...`                                              |
+| Arch Linux             | `arch`          | `https://geo.mirror.pkgbuild.com/...`                                | `https://xget.me/arch/...`                                                  |
+| arXiv                  | `arxiv`         | `https://arxiv.org/...`                                              | `https://xget.me/arxiv/...`                                                 |
+| F-Droid                | `fdroid`        | `https://f-droid.org/...`                                            | `https://xget.me/fdroid/...`                                                |
+| Jenkins Plugins        | `jenkins`       | `https://updates.jenkins.io/...`                                     | `https://xget.me/jenkins/...`                                               |
 | Container Registries   | `cr`            | See [Container Registries](#container-registries)                    | See [Container Registries](#container-registries)                                 |
 | AI Inference Providers | `ip`            | See [AI Inference Providers](#ai-inference-providers)                | See [AI Inference Providers](#ai-inference-providers)                             |
 
@@ -349,7 +349,7 @@ instance, simply replace the domain and add the platform prefix:
 https://github.com/microsoft/vscode/archive/refs/heads/main.zip
 
 # Converted (add gh prefix)
-https://xget.xi-xu.me/gh/microsoft/vscode/archive/refs/heads/main.zip
+https://xget.me/gh/microsoft/vscode/archive/refs/heads/main.zip
 ```
 
 #### GitHub Gist
@@ -359,7 +359,7 @@ https://xget.xi-xu.me/gh/microsoft/vscode/archive/refs/heads/main.zip
 https://gist.github.com/xixu-me/e2ea9db6b1f143892495f796fef18631/raw/3b8807172ee492d0da3a7e370b0fb88fc97b53e6/Free-ChatGPT-Paid-Plan.md
 
 # Converted (add gist prefix)
-https://xget.xi-xu.me/gist/xixu-me/e2ea9db6b1f143892495f796fef18631/raw/3b8807172ee492d0da3a7e370b0fb88fc97b53e6/Free-ChatGPT-Paid-Plan.md
+https://xget.me/gist/xixu-me/e2ea9db6b1f143892495f796fef18631/raw/3b8807172ee492d0da3a7e370b0fb88fc97b53e6/Free-ChatGPT-Paid-Plan.md
 ```
 
 #### GitLab
@@ -369,7 +369,7 @@ https://xget.xi-xu.me/gist/xixu-me/e2ea9db6b1f143892495f796fef18631/raw/3b880717
 https://gitlab.com/gitlab-org/gitlab/-/archive/master/gitlab-master.zip
 
 # Converted (add gl prefix)
-https://xget.xi-xu.me/gl/gitlab-org/gitlab/-/archive/master/gitlab-master.zip
+https://xget.me/gl/gitlab-org/gitlab/-/archive/master/gitlab-master.zip
 ```
 
 #### Gitea
@@ -379,7 +379,7 @@ https://xget.xi-xu.me/gl/gitlab-org/gitlab/-/archive/master/gitlab-master.zip
 https://gitea.com/gitea/gitea/archive/master.zip
 
 # Converted (add gitea prefix)
-https://xget.xi-xu.me/gitea/gitea/gitea/archive/master.zip
+https://xget.me/gitea/gitea/gitea/archive/master.zip
 ```
 
 #### Codeberg
@@ -389,7 +389,7 @@ https://xget.xi-xu.me/gitea/gitea/gitea/archive/master.zip
 https://codeberg.org/forgejo/forgejo/archive/forgejo.zip
 
 # Converted (add codeberg prefix)
-https://xget.xi-xu.me/codeberg/forgejo/forgejo/archive/forgejo.zip
+https://xget.me/codeberg/forgejo/forgejo/archive/forgejo.zip
 ```
 
 #### SourceForge
@@ -399,7 +399,7 @@ https://xget.xi-xu.me/codeberg/forgejo/forgejo/archive/forgejo.zip
 https://sourceforge.net/projects/sevenzip/files/7-Zip/23.01/7z2301-x64.exe/download
 
 # Converted (add sf prefix)
-https://xget.xi-xu.me/sf/projects/sevenzip/files/7-Zip/23.01/7z2301-x64.exe/download
+https://xget.me/sf/projects/sevenzip/files/7-Zip/23.01/7z2301-x64.exe/download
 ```
 
 #### AOSP (Android Open Source Project)
@@ -409,13 +409,13 @@ https://xget.xi-xu.me/sf/projects/sevenzip/files/7-Zip/23.01/7z2301-x64.exe/down
 https://android.googlesource.com/platform/frameworks/base
 
 # Converted (add aosp prefix)
-https://xget.xi-xu.me/aosp/platform/frameworks/base
+https://xget.me/aosp/platform/frameworks/base
 
 # AOSP device tree original URL
 https://android.googlesource.com/device/google/pixel
 
 # Converted (add aosp prefix)
-https://xget.xi-xu.me/aosp/device/google/pixel
+https://xget.me/aosp/device/google/pixel
 ```
 
 #### Hugging Face
@@ -425,13 +425,13 @@ https://xget.xi-xu.me/aosp/device/google/pixel
 https://huggingface.co/microsoft/DialoGPT-medium/resolve/main/pytorch_model.bin
 
 # Converted (add hf prefix)
-https://xget.xi-xu.me/hf/microsoft/DialoGPT-medium/resolve/main/pytorch_model.bin
+https://xget.me/hf/microsoft/DialoGPT-medium/resolve/main/pytorch_model.bin
 
 # Dataset file original URL
 https://huggingface.co/datasets/rajpurkar/squad/resolve/main/plain_text/train-00000-of-00001.parquet
 
 # Converted (add hf prefix)
-https://xget.xi-xu.me/hf/datasets/rajpurkar/squad/resolve/main/plain_text/train-00000-of-00001.parquet
+https://xget.me/hf/datasets/rajpurkar/squad/resolve/main/plain_text/train-00000-of-00001.parquet
 ```
 
 #### Civitai
@@ -441,19 +441,19 @@ https://xget.xi-xu.me/hf/datasets/rajpurkar/squad/resolve/main/plain_text/train-
 https://civitai.com/api/download/models/128713
 
 # Converted (add civitai prefix)
-https://xget.xi-xu.me/civitai/api/download/models/128713
+https://xget.me/civitai/api/download/models/128713
 
 # Model API original URL
 https://civitai.com/api/v1/models/7240
 
 # Converted (add civitai prefix)
-https://xget.xi-xu.me/civitai/api/v1/models/7240
+https://xget.me/civitai/api/v1/models/7240
 
 # Model version API original URL
 https://civitai.com/api/v1/model-versions/128713
 
 # Converted (add civitai prefix)
-https://xget.xi-xu.me/civitai/api/v1/model-versions/128713
+https://xget.me/civitai/api/v1/model-versions/128713
 ```
 
 #### npm
@@ -463,13 +463,13 @@ https://xget.xi-xu.me/civitai/api/v1/model-versions/128713
 https://registry.npmjs.org/react/-/react-18.2.0.tgz
 
 # Converted (add npm prefix)
-https://xget.xi-xu.me/npm/react/-/react-18.2.0.tgz
+https://xget.me/npm/react/-/react-18.2.0.tgz
 
 # Package metadata original URL
 https://registry.npmjs.org/lodash
 
 # Converted (add npm prefix)
-https://xget.xi-xu.me/npm/lodash
+https://xget.me/npm/lodash
 ```
 
 #### PyPI
@@ -479,13 +479,13 @@ https://xget.xi-xu.me/npm/lodash
 https://pypi.org/packages/source/r/requests/requests-2.31.0.tar.gz
 
 # Converted (add pypi prefix)
-https://xget.xi-xu.me/pypi/packages/source/r/requests/requests-2.31.0.tar.gz
+https://xget.me/pypi/packages/source/r/requests/requests-2.31.0.tar.gz
 
 # Wheel file original URL
 https://pypi.org/packages/py3/r/requests/requests-2.31.0-py3-none-any.whl
 
 # Converted (add pypi prefix)
-https://xget.xi-xu.me/pypi/packages/py3/r/requests/requests-2.31.0-py3-none-any.whl
+https://xget.me/pypi/packages/py3/r/requests/requests-2.31.0-py3-none-any.whl
 ```
 
 #### conda
@@ -495,13 +495,13 @@ https://xget.xi-xu.me/pypi/packages/py3/r/requests/requests-2.31.0-py3-none-any.
 https://repo.anaconda.com/pkgs/main/linux-64/numpy-1.24.3-py311h08b1b3b_1.conda
 
 # Converted (add conda prefix)
-https://xget.xi-xu.me/conda/pkgs/main/linux-64/numpy-1.24.3-py311h08b1b3b_1.conda
+https://xget.me/conda/pkgs/main/linux-64/numpy-1.24.3-py311h08b1b3b_1.conda
 
 # Community channel metadata original URL
 https://conda.anaconda.org/conda-forge/linux-64/repodata.json
 
 # Converted (add conda/community prefix)
-https://xget.xi-xu.me/conda/community/conda-forge/linux-64/repodata.json
+https://xget.me/conda/community/conda-forge/linux-64/repodata.json
 ```
 
 #### Maven
@@ -511,13 +511,13 @@ https://xget.xi-xu.me/conda/community/conda-forge/linux-64/repodata.json
 https://repo1.maven.org/maven2/org/springframework/spring-core/5.3.21/spring-core-5.3.21.jar
 
 # Converted (add maven prefix)
-https://xget.xi-xu.me/maven/maven2/org/springframework/spring-core/5.3.21/spring-core-5.3.21.jar
+https://xget.me/maven/maven2/org/springframework/spring-core/5.3.21/spring-core-5.3.21.jar
 
 # Maven metadata original URL
 https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/maven-metadata.xml
 
 # Converted (add maven prefix)
-https://xget.xi-xu.me/maven/maven2/org/apache/commons/commons-lang3/maven-metadata.xml
+https://xget.me/maven/maven2/org/apache/commons/commons-lang3/maven-metadata.xml
 ```
 
 #### Apache Software Download
@@ -527,19 +527,19 @@ https://xget.xi-xu.me/maven/maven2/org/apache/commons/commons-lang3/maven-metada
 https://downloads.apache.org/kafka/3.6.1/kafka_2.13-3.6.1.tgz
 
 # Converted (add apache prefix)
-https://xget.xi-xu.me/apache/kafka/3.6.1/kafka_2.13-3.6.1.tgz
+https://xget.me/apache/kafka/3.6.1/kafka_2.13-3.6.1.tgz
 
 # Apache Maven download original URL
 https://downloads.apache.org/maven/maven-3/3.9.5/binaries/apache-maven-3.9.5-bin.tar.gz
 
 # Converted (add apache prefix)
-https://xget.xi-xu.me/apache/maven/maven-3/3.9.5/binaries/apache-maven-3.9.5-bin.tar.gz
+https://xget.me/apache/maven/maven-3/3.9.5/binaries/apache-maven-3.9.5-bin.tar.gz
 
 # Apache Spark download original URL
 https://downloads.apache.org/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz
 
 # Converted (add apache prefix)
-https://xget.xi-xu.me/apache/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz
+https://xget.me/apache/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz
 ```
 
 #### Gradle
@@ -549,13 +549,13 @@ https://xget.xi-xu.me/apache/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz
 https://plugins.gradle.org/m2/org/gradle/gradle-hello-world-plugin/0.2/gradle-hello-world-plugin-0.2.jar
 
 # Converted (add gradle prefix)
-https://xget.xi-xu.me/gradle/m2/org/gradle/gradle-hello-world-plugin/0.2/gradle-hello-world-plugin-0.2.jar
+https://xget.me/gradle/m2/org/gradle/gradle-hello-world-plugin/0.2/gradle-hello-world-plugin-0.2.jar
 
 # Gradle plugin metadata original URL
 https://plugins.gradle.org/m2/com/github/ben-manes/gradle-versions-plugin/0.51.0/gradle-versions-plugin-0.51.0.module
 
 # Converted (add gradle prefix)
-https://xget.xi-xu.me/gradle/m2/com/github/ben-manes/gradle-versions-plugin/0.51.0/gradle-versions-plugin-0.51.0.module
+https://xget.me/gradle/m2/com/github/ben-manes/gradle-versions-plugin/0.51.0/gradle-versions-plugin-0.51.0.module
 ```
 
 #### Homebrew
@@ -565,19 +565,19 @@ https://xget.xi-xu.me/gradle/m2/com/github/ben-manes/gradle-versions-plugin/0.51
 https://github.com/Homebrew/homebrew-core/raw/HEAD/Formula/g/git.rb
 
 # Converted (add homebrew prefix)
-https://xget.xi-xu.me/homebrew/homebrew-core/raw/HEAD/Formula/g/git.rb
+https://xget.me/homebrew/homebrew-core/raw/HEAD/Formula/g/git.rb
 
 # Homebrew API original URL
 https://formulae.brew.sh/api/formula/git.json
 
 # Converted (add homebrew/api prefix)
-https://xget.xi-xu.me/homebrew/api/formula/git.json
+https://xget.me/homebrew/api/formula/git.json
 
 # Homebrew Bottles original URL
 https://ghcr.io/v2/homebrew/core/git/manifests/2.39.0
 
 # Converted (add homebrew/bottles prefix)
-https://xget.xi-xu.me/homebrew/bottles/v2/homebrew/core/git/manifests/2.39.0
+https://xget.me/homebrew/bottles/v2/homebrew/core/git/manifests/2.39.0
 ```
 
 #### RubyGems
@@ -587,13 +587,13 @@ https://xget.xi-xu.me/homebrew/bottles/v2/homebrew/core/git/manifests/2.39.0
 https://rubygems.org/gems/rails-7.0.4.gem
 
 # Converted (add rubygems prefix)
-https://xget.xi-xu.me/rubygems/gems/rails-7.0.4.gem
+https://xget.me/rubygems/gems/rails-7.0.4.gem
 
 # RubyGems API original URL
 https://rubygems.org/api/v1/gems/nokogiri.json
 
 # Converted (add rubygems prefix)
-https://xget.xi-xu.me/rubygems/api/v1/gems/nokogiri.json
+https://xget.me/rubygems/api/v1/gems/nokogiri.json
 ```
 
 #### CRAN
@@ -603,13 +603,13 @@ https://xget.xi-xu.me/rubygems/api/v1/gems/nokogiri.json
 https://cran.r-project.org/src/contrib/ggplot2_3.5.2.tar.gz
 
 # Converted (add cran prefix)
-https://xget.xi-xu.me/cran/src/contrib/ggplot2_3.5.2.tar.gz
+https://xget.me/cran/src/contrib/ggplot2_3.5.2.tar.gz
 
 # CRAN package metadata original URL
 https://cran.r-project.org/web/packages/dplyr/DESCRIPTION
 
 # Converted (add cran prefix)
-https://xget.xi-xu.me/cran/web/packages/dplyr/DESCRIPTION
+https://xget.me/cran/web/packages/dplyr/DESCRIPTION
 ```
 
 #### CPAN (Perl Package Management)
@@ -619,13 +619,13 @@ https://xget.xi-xu.me/cran/web/packages/dplyr/DESCRIPTION
 https://www.cpan.org/modules/by-module/DBI/DBI-1.643.tar.gz
 
 # Converted (add cpan prefix)
-https://xget.xi-xu.me/cpan/modules/by-module/DBI/DBI-1.643.tar.gz
+https://xget.me/cpan/modules/by-module/DBI/DBI-1.643.tar.gz
 
 # CPAN author package original URL
 https://www.cpan.org/authors/id/T/TI/TIMB/DBI-1.643.tar.gz
 
 # Converted (add cpan prefix)
-https://xget.xi-xu.me/cpan/authors/id/T/TI/TIMB/DBI-1.643.tar.gz
+https://xget.me/cpan/authors/id/T/TI/TIMB/DBI-1.643.tar.gz
 ```
 
 #### CTAN (TeX/LaTeX Package Management)
@@ -635,13 +635,13 @@ https://xget.xi-xu.me/cpan/authors/id/T/TI/TIMB/DBI-1.643.tar.gz
 https://tug.ctan.org/tex-archive/macros/latex/contrib/beamer.zip
 
 # Converted (add ctan prefix)
-https://xget.xi-xu.me/ctan/tex-archive/macros/latex/contrib/beamer.zip
+https://xget.me/ctan/tex-archive/macros/latex/contrib/beamer.zip
 
 # CTAN font file original URL
 https://tug.ctan.org/tex-archive/fonts/cm/pk/ljfour/public/cm/dpi600/cmr10.pk
 
 # Converted (add ctan prefix)
-https://xget.xi-xu.me/ctan/tex-archive/fonts/cm/pk/ljfour/public/cm/dpi600/cmr10.pk
+https://xget.me/ctan/tex-archive/fonts/cm/pk/ljfour/public/cm/dpi600/cmr10.pk
 ```
 
 #### Go Modules
@@ -651,13 +651,13 @@ https://xget.xi-xu.me/ctan/tex-archive/fonts/cm/pk/ljfour/public/cm/dpi600/cmr10
 https://proxy.golang.org/github.com/gin-gonic/gin/@v/v1.9.1.zip
 
 # Converted (add golang prefix)
-https://xget.xi-xu.me/golang/github.com/gin-gonic/gin/@v/v1.9.1.zip
+https://xget.me/golang/github.com/gin-gonic/gin/@v/v1.9.1.zip
 
 # Go module info original URL
 https://proxy.golang.org/github.com/gorilla/mux/@v/list
 
 # Converted (add golang prefix)
-https://xget.xi-xu.me/golang/github.com/gorilla/mux/@v/list
+https://xget.me/golang/github.com/gorilla/mux/@v/list
 ```
 
 #### NuGet
@@ -667,13 +667,13 @@ https://xget.xi-xu.me/golang/github.com/gorilla/mux/@v/list
 https://api.nuget.org/v3-flatcontainer/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg
 
 # Converted (add nuget prefix)
-https://xget.xi-xu.me/nuget/v3-flatcontainer/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg
+https://xget.me/nuget/v3-flatcontainer/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg
 
 # NuGet package metadata original URL
 https://api.nuget.org/v3/registration5-semver1/microsoft.aspnetcore.app/index.json
 
 # Converted (add nuget prefix)
-https://xget.xi-xu.me/nuget/v3/registration5-semver1/microsoft.aspnetcore.app/index.json
+https://xget.me/nuget/v3/registration5-semver1/microsoft.aspnetcore.app/index.json
 ```
 
 #### Rust Crates
@@ -683,19 +683,19 @@ https://xget.xi-xu.me/nuget/v3/registration5-semver1/microsoft.aspnetcore.app/in
 https://crates.io/api/v1/crates/serde/1.0.0/download
 
 # Converted (add crates prefix)
-https://xget.xi-xu.me/crates/serde/1.0.0/download
+https://xget.me/crates/serde/1.0.0/download
 
 # Crate metadata original URL
 https://crates.io/api/v1/crates/serde
 
 # Converted (add crates prefix)
-https://xget.xi-xu.me/crates/serde
+https://xget.me/crates/serde
 
 # Crate search original URL
 https://crates.io/api/v1/crates?q=serde
 
 # Converted (add crates prefix)
-https://xget.xi-xu.me/crates/?q=serde
+https://xget.me/crates/?q=serde
 ```
 
 #### Packagist
@@ -705,13 +705,13 @@ https://xget.xi-xu.me/crates/?q=serde
 https://repo.packagist.org/p2/symfony/console.json
 
 # Converted (add packagist prefix)
-https://xget.xi-xu.me/packagist/p2/symfony/console.json
+https://xget.me/packagist/p2/symfony/console.json
 
 # Packagist package list original URL
 https://repo.packagist.org/packages/list.json
 
 # Converted (add packagist prefix)
-https://xget.xi-xu.me/packagist/packages/list.json
+https://xget.me/packagist/packages/list.json
 ```
 
 #### Flathub
@@ -721,13 +721,13 @@ https://xget.xi-xu.me/packagist/packages/list.json
 https://dl.flathub.org/repo/summary
 
 # Converted (add flathub prefix)
-https://xget.xi-xu.me/flathub/repo/summary
+https://xget.me/flathub/repo/summary
 
 # Flathub app reference original URL
 https://dl.flathub.org/repo/appstream/org.gnome.gedit.flatpakref
 
 # Converted (add flathub prefix)
-https://xget.xi-xu.me/flathub/repo/appstream/org.gnome.gedit.flatpakref
+https://xget.me/flathub/repo/appstream/org.gnome.gedit.flatpakref
 ```
 
 #### Linux Distributions
@@ -737,37 +737,37 @@ https://xget.xi-xu.me/flathub/repo/appstream/org.gnome.gedit.flatpakref
 https://deb.debian.org/debian/pool/main/c/curl/curl_7.88.1-10+deb12u4_amd64.deb
 
 # Converted (add debian prefix)
-https://xget.xi-xu.me/debian/debian/pool/main/c/curl/curl_7.88.1-10+deb12u4_amd64.deb
+https://xget.me/debian/debian/pool/main/c/curl/curl_7.88.1-10+deb12u4_amd64.deb
 
 # Ubuntu package original URL
 https://archive.ubuntu.com/ubuntu/pool/main/g/git/git_2.34.1-1ubuntu1.9_amd64.deb
 
 # Converted (add ubuntu prefix)
-https://xget.xi-xu.me/ubuntu/ubuntu/pool/main/g/git/git_2.34.1-1ubuntu1.9_amd64.deb
+https://xget.me/ubuntu/ubuntu/pool/main/g/git/git_2.34.1-1ubuntu1.9_amd64.deb
 
 # Fedora package original URL
 https://mirrors.kernel.org/fedora/releases/39/Everything/x86_64/os/Packages/n/nginx-1.24.0-1.fc39.x86_64.rpm
 
 # Converted (add fedora prefix)
-https://xget.xi-xu.me/fedora/releases/39/Everything/x86_64/os/Packages/n/nginx-1.24.0-1.fc39.x86_64.rpm
+https://xget.me/fedora/releases/39/Everything/x86_64/os/Packages/n/nginx-1.24.0-1.fc39.x86_64.rpm
 
 # Rocky Linux package original URL
 https://download.rockylinux.org/pub/rocky/9/BaseOS/x86_64/os/Packages/b/bash-5.1.8-6.el9.x86_64.rpm
 
 # Converted (add rocky prefix)
-https://xget.xi-xu.me/rocky/pub/rocky/9/BaseOS/x86_64/os/Packages/b/bash-5.1.8-6.el9.x86_64.rpm
+https://xget.me/rocky/pub/rocky/9/BaseOS/x86_64/os/Packages/b/bash-5.1.8-6.el9.x86_64.rpm
 
 # openSUSE package original URL
 https://download.opensuse.org/distribution/leap/15.5/repo/oss/x86_64/vim-9.0.1572-150500.20.8.1.x86_64.rpm
 
 # Converted (add opensuse prefix)
-https://xget.xi-xu.me/opensuse/distribution/leap/15.5/repo/oss/x86_64/vim-9.0.1572-150500.20.8.1.x86_64.rpm
+https://xget.me/opensuse/distribution/leap/15.5/repo/oss/x86_64/vim-9.0.1572-150500.20.8.1.x86_64.rpm
 
 # Arch Linux package original URL
 https://geo.mirror.pkgbuild.com/core/os/x86_64/linux-6.6.10.arch1-1-x86_64.pkg.tar.zst
 
 # Converted (add arch prefix)
-https://xget.xi-xu.me/arch/core/os/x86_64/linux-6.6.10.arch1-1-x86_64.pkg.tar.zst
+https://xget.me/arch/core/os/x86_64/linux-6.6.10.arch1-1-x86_64.pkg.tar.zst
 ```
 
 #### arXiv
@@ -777,13 +777,13 @@ https://xget.xi-xu.me/arch/core/os/x86_64/linux-6.6.10.arch1-1-x86_64.pkg.tar.zs
 https://arxiv.org/pdf/2301.07041.pdf
 
 # Converted (add arxiv prefix)
-https://xget.xi-xu.me/arxiv/pdf/2301.07041.pdf
+https://xget.me/arxiv/pdf/2301.07041.pdf
 
 # arXiv paper source original URL
 https://arxiv.org/e-print/2301.07041
 
 # Converted (add arxiv prefix)
-https://xget.xi-xu.me/arxiv/e-print/2301.07041
+https://xget.me/arxiv/e-print/2301.07041
 ```
 
 #### F-Droid
@@ -793,13 +793,13 @@ https://xget.xi-xu.me/arxiv/e-print/2301.07041
 https://f-droid.org/repo/org.fdroid.fdroid_1016050.apk
 
 # Converted (add fdroid prefix)
-https://xget.xi-xu.me/fdroid/repo/org.fdroid.fdroid_1016050.apk
+https://xget.me/fdroid/repo/org.fdroid.fdroid_1016050.apk
 
 # F-Droid app metadata original URL
 https://f-droid.org/api/v1/packages/org.fdroid.fdroid
 
 # Converted (add fdroid prefix)
-https://xget.xi-xu.me/fdroid/api/v1/packages/org.fdroid.fdroid
+https://xget.me/fdroid/api/v1/packages/org.fdroid.fdroid
 ```
 
 #### Jenkins Plugins
@@ -809,13 +809,13 @@ https://xget.xi-xu.me/fdroid/api/v1/packages/org.fdroid.fdroid
 https://updates.jenkins.io/update-center.json
 
 # Converted (add jenkins prefix)
-https://xget.xi-xu.me/jenkins/update-center.json
+https://xget.me/jenkins/update-center.json
 
 # Jenkins plugin download original URL
 https://updates.jenkins.io/download/plugins/maven-plugin/3.27/maven-plugin.hpi
 
 # Converted (add jenkins prefix)
-https://xget.xi-xu.me/jenkins/download/plugins/maven-plugin/3.27/maven-plugin.hpi
+https://xget.me/jenkins/download/plugins/maven-plugin/3.27/maven-plugin.hpi
 ```
 
 #### Container Registries
@@ -825,48 +825,48 @@ format:
 
 | Container Registry           | Registry Prefix | Original URL Format                         | Accelerated URL Format                      |
 | ---------------------------- | --------------- | ------------------------------------------- | ------------------------------------------- |
-| Docker Hub                   | `docker`        | `https://registry-1.docker.io/...`          | `https://xget.xi-xu.me/cr/docker/...`       |
-| Quay.io                      | `quay`          | `https://quay.io/...`                       | `https://xget.xi-xu.me/cr/quay/...`         |
-| Google Container Registry    | `gcr`           | `https://gcr.io/...`                        | `https://xget.xi-xu.me/cr/gcr/...`          |
-| Microsoft Container Registry | `mcr`           | `https://mcr.microsoft.com/...`             | `https://xget.xi-xu.me/cr/mcr/...`          |
-| Amazon Public ECR            | `ecr`           | `https://public.ecr.aws/...`                | `https://xget.xi-xu.me/cr/ecr/...`          |
-| GitHub Container Registry    | `ghcr`          | `https://ghcr.io/...`                       | `https://xget.xi-xu.me/cr/ghcr/...`         |
-| GitLab Container Registry    | `gitlab`        | `https://registry.gitlab.com/...`           | `https://xget.xi-xu.me/cr/gitlab/...`       |
-| Red Hat Registry             | `redhat`        | `https://registry.redhat.io/...`            | `https://xget.xi-xu.me/cr/redhat/...`       |
-| Oracle Container Registry    | `oracle`        | `https://container-registry.oracle.com/...` | `https://xget.xi-xu.me/cr/oracle/...`       |
-| Cloudsmith                   | `cloudsmith`    | `https://docker.cloudsmith.io/...`          | `https://xget.xi-xu.me/cr/cloudsmith/...`   |
-| DigitalOcean Registry        | `digitalocean`  | `https://registry.digitalocean.com/...`     | `https://xget.xi-xu.me/cr/digitalocean/...` |
-| VMware Registry              | `vmware`        | `https://projects.registry.vmware.com/...`  | `https://xget.xi-xu.me/cr/vmware/...`       |
-| Kubernetes Registry          | `k8s`           | `https://registry.k8s.io/...`               | `https://xget.xi-xu.me/cr/k8s/...`          |
-| Heroku Registry              | `heroku`        | `https://registry.heroku.com/...`           | `https://xget.xi-xu.me/cr/heroku/...`       |
-| SUSE Registry                | `suse`          | `https://registry.suse.com/...`             | `https://xget.xi-xu.me/cr/suse/...`         |
-| openSUSE Registry            | `opensuse`      | `https://registry.opensuse.org/...`         | `https://xget.xi-xu.me/cr/opensuse/...`     |
-| Gitpod Registry              | `gitpod`        | `https://registry.gitpod.io/...`            | `https://xget.xi-xu.me/cr/gitpod/...`       |
+| Docker Hub                   | `docker`        | `https://registry-1.docker.io/...`          | `https://xget.me/cr/docker/...`       |
+| Quay.io                      | `quay`          | `https://quay.io/...`                       | `https://xget.me/cr/quay/...`         |
+| Google Container Registry    | `gcr`           | `https://gcr.io/...`                        | `https://xget.me/cr/gcr/...`          |
+| Microsoft Container Registry | `mcr`           | `https://mcr.microsoft.com/...`             | `https://xget.me/cr/mcr/...`          |
+| Amazon Public ECR            | `ecr`           | `https://public.ecr.aws/...`                | `https://xget.me/cr/ecr/...`          |
+| GitHub Container Registry    | `ghcr`          | `https://ghcr.io/...`                       | `https://xget.me/cr/ghcr/...`         |
+| GitLab Container Registry    | `gitlab`        | `https://registry.gitlab.com/...`           | `https://xget.me/cr/gitlab/...`       |
+| Red Hat Registry             | `redhat`        | `https://registry.redhat.io/...`            | `https://xget.me/cr/redhat/...`       |
+| Oracle Container Registry    | `oracle`        | `https://container-registry.oracle.com/...` | `https://xget.me/cr/oracle/...`       |
+| Cloudsmith                   | `cloudsmith`    | `https://docker.cloudsmith.io/...`          | `https://xget.me/cr/cloudsmith/...`   |
+| DigitalOcean Registry        | `digitalocean`  | `https://registry.digitalocean.com/...`     | `https://xget.me/cr/digitalocean/...` |
+| VMware Registry              | `vmware`        | `https://projects.registry.vmware.com/...`  | `https://xget.me/cr/vmware/...`       |
+| Kubernetes Registry          | `k8s`           | `https://registry.k8s.io/...`               | `https://xget.me/cr/k8s/...`          |
+| Heroku Registry              | `heroku`        | `https://registry.heroku.com/...`           | `https://xget.me/cr/heroku/...`       |
+| SUSE Registry                | `suse`          | `https://registry.suse.com/...`             | `https://xget.me/cr/suse/...`         |
+| openSUSE Registry            | `opensuse`      | `https://registry.opensuse.org/...`         | `https://xget.me/cr/opensuse/...`     |
+| Gitpod Registry              | `gitpod`        | `https://registry.gitpod.io/...`            | `https://xget.me/cr/gitpod/...`       |
 
 ```url
 # Docker Hub original URL (official images)
 https://registry-1.docker.io/v2/library/nginx/manifests/latest
 
 # Converted (add cr/docker prefix)
-https://xget.xi-xu.me/cr/docker/v2/nginx/manifests/latest
+https://xget.me/cr/docker/v2/nginx/manifests/latest
 
 # Docker Hub original URL (user images)
 https://registry-1.docker.io/v2/nginxinc/nginx-unprivileged/manifests/latest
 
 # Converted (add cr/docker prefix)
-https://xget.xi-xu.me/cr/docker/v2/nginxinc/nginx-unprivileged/manifests/latest
+https://xget.me/cr/docker/v2/nginxinc/nginx-unprivileged/manifests/latest
 
 # GitHub Container Registry original URL
 https://ghcr.io/v2/nginxinc/nginx-unprivileged/manifests/latest
 
 # Converted (add cr/ghcr prefix)
-https://xget.xi-xu.me/cr/ghcr/v2/nginxinc/nginx-unprivileged/manifests/latest
+https://xget.me/cr/ghcr/v2/nginxinc/nginx-unprivileged/manifests/latest
 
 # Google Container Registry original URL
 https://gcr.io/v2/distroless/base/manifests/latest
 
 # Converted (add cr/gcr prefix)
-https://xget.xi-xu.me/cr/gcr/v2/distroless/base/manifests/latest
+https://xget.me/cr/gcr/v2/distroless/base/manifests/latest
 ```
 
 For use cases, see
@@ -879,59 +879,59 @@ the `ip/[AI Provider Prefix]` format:
 
 | AI Inference Provider | Provider Prefix | Original URL Format                             | Accelerated URL Format                       |
 | --------------------- | --------------- | ----------------------------------------------- | -------------------------------------------- |
-| OpenAI                | `openai`        | `https://api.openai.com/...`                    | `https://xget.xi-xu.me/ip/openai/...`        |
-| Anthropic             | `anthropic`     | `https://api.anthropic.com/...`                 | `https://xget.xi-xu.me/ip/anthropic/...`     |
-| Gemini                | `gemini`        | `https://generativelanguage.googleapis.com/...` | `https://xget.xi-xu.me/ip/gemini/...`        |
-| Vertex AI             | `vertexai`      | `https://aiplatform.googleapis.com/...`         | `https://xget.xi-xu.me/ip/vertexai/...`      |
-| Cohere                | `cohere`        | `https://api.cohere.ai/...`                     | `https://xget.xi-xu.me/ip/cohere/...`        |
-| Mistral AI            | `mistralai`     | `https://api.mistral.ai/...`                    | `https://xget.xi-xu.me/ip/mistralai/...`     |
-| xAI                   | `xai`           | `https://api.x.ai/...`                          | `https://xget.xi-xu.me/ip/xai/...`           |
-| GitHub Models         | `githubmodels`  | `https://models.github.ai/...`                  | `https://xget.xi-xu.me/ip/githubmodels/...`  |
-| NVIDIA API            | `nvidiaapi`     | `https://integrate.api.nvidia.com/...`          | `https://xget.xi-xu.me/ip/nvidiaapi/...`     |
-| Perplexity            | `perplexity`    | `https://api.perplexity.ai/...`                 | `https://xget.xi-xu.me/ip/perplexity/...`    |
-| Groq                  | `groq`          | `https://api.groq.com/...`                      | `https://xget.xi-xu.me/ip/groq/...`          |
-| Cerebras              | `cerebras`      | `https://api.cerebras.ai/...`                   | `https://xget.xi-xu.me/ip/cerebras/...`      |
-| SambaNova             | `sambanova`     | `https://api.sambanova.ai/...`                  | `https://xget.xi-xu.me/ip/sambanova/...`     |
-| Siray                 | `siray`         | `https://api.siray.ai/...`                      | `https://xget.xi-xu.me/ip/siray/...`         |
-| HF Inference          | `huggingface`   | `https://router.huggingface.co/...`             | `https://xget.xi-xu.me/ip/huggingface/...`   |
-| Together              | `together`      | `https://api.together.xyz/...`                  | `https://xget.xi-xu.me/ip/together/...`      |
-| Replicate             | `replicate`     | `https://api.replicate.com/...`                 | `https://xget.xi-xu.me/ip/replicate/...`     |
-| Fireworks             | `fireworks`     | `https://api.fireworks.ai/...`                  | `https://xget.xi-xu.me/ip/fireworks/...`     |
-| Nebius                | `nebius`        | `https://api.studio.nebius.ai/...`              | `https://xget.xi-xu.me/ip/nebius/...`        |
-| Jina                  | `jina`          | `https://api.jina.ai/...`                       | `https://xget.xi-xu.me/ip/jina/...`          |
-| Voyage AI             | `voyageai`      | `https://api.voyageai.com/...`                  | `https://xget.xi-xu.me/ip/voyageai/...`      |
-| Fal AI                | `falai`         | `https://fal.run/...`                           | `https://xget.xi-xu.me/ip/falai/...`         |
-| Novita                | `novita`        | `https://api.novita.ai/...`                     | `https://xget.xi-xu.me/ip/novita/...`        |
-| Burncloud             | `burncloud`     | `https://ai.burncloud.com/...`                  | `https://xget.xi-xu.me/ip/burncloud/...`     |
-| OpenRouter            | `openrouter`    | `https://openrouter.ai/...`                     | `https://xget.xi-xu.me/ip/openrouter/...`    |
-| Poe                   | `poe`           | `https://api.poe.com/...`                       | `https://xget.xi-xu.me/ip/poe/...`           |
-| Featherless AI        | `featherlessai` | `https://api.featherless.ai/...`                | `https://xget.xi-xu.me/ip/featherlessai/...` |
-| Hyperbolic            | `hyperbolic`    | `https://api.hyperbolic.xyz/...`                | `https://xget.xi-xu.me/ip/hyperbolic/...`    |
+| OpenAI                | `openai`        | `https://api.openai.com/...`                    | `https://xget.me/ip/openai/...`        |
+| Anthropic             | `anthropic`     | `https://api.anthropic.com/...`                 | `https://xget.me/ip/anthropic/...`     |
+| Gemini                | `gemini`        | `https://generativelanguage.googleapis.com/...` | `https://xget.me/ip/gemini/...`        |
+| Vertex AI             | `vertexai`      | `https://aiplatform.googleapis.com/...`         | `https://xget.me/ip/vertexai/...`      |
+| Cohere                | `cohere`        | `https://api.cohere.ai/...`                     | `https://xget.me/ip/cohere/...`        |
+| Mistral AI            | `mistralai`     | `https://api.mistral.ai/...`                    | `https://xget.me/ip/mistralai/...`     |
+| xAI                   | `xai`           | `https://api.x.ai/...`                          | `https://xget.me/ip/xai/...`           |
+| GitHub Models         | `githubmodels`  | `https://models.github.ai/...`                  | `https://xget.me/ip/githubmodels/...`  |
+| NVIDIA API            | `nvidiaapi`     | `https://integrate.api.nvidia.com/...`          | `https://xget.me/ip/nvidiaapi/...`     |
+| Perplexity            | `perplexity`    | `https://api.perplexity.ai/...`                 | `https://xget.me/ip/perplexity/...`    |
+| Groq                  | `groq`          | `https://api.groq.com/...`                      | `https://xget.me/ip/groq/...`          |
+| Cerebras              | `cerebras`      | `https://api.cerebras.ai/...`                   | `https://xget.me/ip/cerebras/...`      |
+| SambaNova             | `sambanova`     | `https://api.sambanova.ai/...`                  | `https://xget.me/ip/sambanova/...`     |
+| Siray                 | `siray`         | `https://api.siray.ai/...`                      | `https://xget.me/ip/siray/...`         |
+| HF Inference          | `huggingface`   | `https://router.huggingface.co/...`             | `https://xget.me/ip/huggingface/...`   |
+| Together              | `together`      | `https://api.together.xyz/...`                  | `https://xget.me/ip/together/...`      |
+| Replicate             | `replicate`     | `https://api.replicate.com/...`                 | `https://xget.me/ip/replicate/...`     |
+| Fireworks             | `fireworks`     | `https://api.fireworks.ai/...`                  | `https://xget.me/ip/fireworks/...`     |
+| Nebius                | `nebius`        | `https://api.studio.nebius.ai/...`              | `https://xget.me/ip/nebius/...`        |
+| Jina                  | `jina`          | `https://api.jina.ai/...`                       | `https://xget.me/ip/jina/...`          |
+| Voyage AI             | `voyageai`      | `https://api.voyageai.com/...`                  | `https://xget.me/ip/voyageai/...`      |
+| Fal AI                | `falai`         | `https://fal.run/...`                           | `https://xget.me/ip/falai/...`         |
+| Novita                | `novita`        | `https://api.novita.ai/...`                     | `https://xget.me/ip/novita/...`        |
+| Burncloud             | `burncloud`     | `https://ai.burncloud.com/...`                  | `https://xget.me/ip/burncloud/...`     |
+| OpenRouter            | `openrouter`    | `https://openrouter.ai/...`                     | `https://xget.me/ip/openrouter/...`    |
+| Poe                   | `poe`           | `https://api.poe.com/...`                       | `https://xget.me/ip/poe/...`           |
+| Featherless AI        | `featherlessai` | `https://api.featherless.ai/...`                | `https://xget.me/ip/featherlessai/...` |
+| Hyperbolic            | `hyperbolic`    | `https://api.hyperbolic.xyz/...`                | `https://xget.me/ip/hyperbolic/...`    |
 
 ```url
 # OpenAI API original URL
 https://api.openai.com/v1/chat/completions
 
 # Converted (add ip/openai prefix)
-https://xget.xi-xu.me/ip/openai/v1/chat/completions
+https://xget.me/ip/openai/v1/chat/completions
 
 # Claude API original URL
 https://api.anthropic.com/v1/messages
 
 # Converted (add ip/anthropic prefix)
-https://xget.xi-xu.me/ip/anthropic/v1/messages
+https://xget.me/ip/anthropic/v1/messages
 
 # Gemini API original URL
 https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent
 
 # Converted (add ip/gemini prefix)
-https://xget.xi-xu.me/ip/gemini/v1beta/models/gemini-2.5-flash:generateContent
+https://xget.me/ip/gemini/v1beta/models/gemini-2.5-flash:generateContent
 
 # HF Inference API original URL
 https://router.huggingface.co/hf-inference/models/openai/whisper-large-v3
 
 # Converted (add ip/huggingface prefix)
-https://xget.xi-xu.me/ip/huggingface/hf-inference/models/openai/whisper-large-v3
+https://xget.me/ip/huggingface/hf-inference/models/openai/whisper-large-v3
 ```
 
 For use cases, see
@@ -945,49 +945,49 @@ For use cases, see
 
 ```bash
 # Clone repository
-git clone https://xget.xi-xu.me/gh/microsoft/vscode.git
+git clone https://xget.me/gh/microsoft/vscode.git
 
 # Clone specific branch
-git clone -b main https://xget.xi-xu.me/gh/facebook/react.git
+git clone -b main https://xget.me/gh/facebook/react.git
 
 # Shallow clone (latest commit only)
-git clone --depth 1 https://xget.xi-xu.me/gh/torvalds/linux.git
+git clone --depth 1 https://xget.me/gh/torvalds/linux.git
 
 # Clone GitLab repository
-git clone https://xget.xi-xu.me/gl/gitlab-org/gitlab.git
+git clone https://xget.me/gl/gitlab-org/gitlab.git
 
 # Clone Gitea repository
-git clone https://xget.xi-xu.me/gitea/gitea/gitea.git
+git clone https://xget.me/gitea/gitea/gitea.git
 
 # Clone Codeberg repository
-git clone https://xget.xi-xu.me/codeberg/forgejo/forgejo.git
+git clone https://xget.me/codeberg/forgejo/forgejo.git
 
 # Clone SourceForge repository
-git clone https://xget.xi-xu.me/sf/projects/mingw-w64/code.git
+git clone https://xget.me/sf/projects/mingw-w64/code.git
 
 # Clone AOSP repository
-git clone https://xget.xi-xu.me/aosp/platform/frameworks/base.git
+git clone https://xget.me/aosp/platform/frameworks/base.git
 
 # Add remote repository
-git remote add upstream https://xget.xi-xu.me/gh/[owner]/[repository].git
+git remote add upstream https://xget.me/gh/[owner]/[repository].git
 
 # Pull updates
-git pull https://xget.xi-xu.me/gh/microsoft/vscode.git main
+git pull https://xget.me/gh/microsoft/vscode.git main
 
 # Recursive submodule clone
-git clone --recursive https://xget.xi-xu.me/gh/[username]/[repository-with-submodules].git
+git clone --recursive https://xget.me/gh/[username]/[repository-with-submodules].git
 ```
 
 #### Git Global Acceleration Configuration
 
 ```bash
 # Configure Git to use Xget for specific domains
-git config --global url."https://xget.xi-xu.me/gh/".insteadOf "https://github.com/"
-git config --global url."https://xget.xi-xu.me/gl/".insteadOf "https://gitlab.com/"
-git config --global url."https://xget.xi-xu.me/gitea/".insteadOf "https://gitea.com/"
-git config --global url."https://xget.xi-xu.me/codeberg/".insteadOf "https://codeberg.org/"
-git config --global url."https://xget.xi-xu.me/sf/".insteadOf "https://sourceforge.net/"
-git config --global url."https://xget.xi-xu.me/aosp/".insteadOf "https://android.googlesource.com/"
+git config --global url."https://xget.me/gh/".insteadOf "https://github.com/"
+git config --global url."https://xget.me/gl/".insteadOf "https://gitlab.com/"
+git config --global url."https://xget.me/gitea/".insteadOf "https://gitea.com/"
+git config --global url."https://xget.me/codeberg/".insteadOf "https://codeberg.org/"
+git config --global url."https://xget.me/sf/".insteadOf "https://sourceforge.net/"
+git config --global url."https://xget.me/aosp/".insteadOf "https://android.googlesource.com/"
 
 # Verify configuration
 git config --global --get-regexp url
@@ -1005,10 +1005,10 @@ git clone https://android.googlesource.com/platform/frameworks/base.git  # Autom
 
 ```bash
 # Download single file
-wget https://xget.xi-xu.me/gh/microsoft/vscode/archive/refs/heads/main.zip
+wget https://xget.me/gh/microsoft/vscode/archive/refs/heads/main.zip
 
 # Resume download
-wget -c https://xget.xi-xu.me/hf/microsoft/DialoGPT-large/resolve/main/pytorch_model.bin
+wget -c https://xget.me/hf/microsoft/DialoGPT-large/resolve/main/pytorch_model.bin
 
 # Batch download
 wget -i urls.txt  # urls.txt contains multiple Xget URLs
@@ -1018,23 +1018,23 @@ wget -i urls.txt  # urls.txt contains multiple Xget URLs
 
 ```bash
 # Basic download
-curl -L -O https://xget.xi-xu.me/gh/golang/go/archive/refs/tags/go1.22.0.tar.gz
+curl -L -O https://xget.me/gh/golang/go/archive/refs/tags/go1.22.0.tar.gz
 
 # Show progress bar
-curl -L --progress-bar -o model.bin https://xget.xi-xu.me/hf/openai/whisper-large-v3/resolve/main/pytorch_model.bin
+curl -L --progress-bar -o model.bin https://xget.me/hf/openai/whisper-large-v3/resolve/main/pytorch_model.bin
 
 # Set user agent
-curl -L -H "User-Agent: MyApp/1.0" https://xget.xi-xu.me/gl/gitlab-org/gitlab-runner/-/archive/main/gitlab-runner-main.zip
+curl -L -H "User-Agent: MyApp/1.0" https://xget.me/gl/gitlab-org/gitlab-runner/-/archive/main/gitlab-runner-main.zip
 ```
 
 #### aria2 Multi-threaded Download
 
 ```bash
 # Multi-threaded download of large files
-aria2c -x 16 -s 16 https://xget.xi-xu.me/hf/microsoft/DialoGPT-large/resolve/main/pytorch_model.bin
+aria2c -x 16 -s 16 https://xget.me/hf/microsoft/DialoGPT-large/resolve/main/pytorch_model.bin
 
 # Resume download
-aria2c -c https://xget.xi-xu.me/gh/microsoft/vscode/archive/refs/heads/main.zip
+aria2c -c https://xget.me/gh/microsoft/vscode/archive/refs/heads/main.zip
 
 # Batch download configuration file
 aria2c -i download-list.txt  # File containing multiple Xget URLs
@@ -1047,7 +1047,7 @@ import os
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # Set environment variable to make transformers library automatically use Xget mirror
-os.environ['HF_ENDPOINT'] = 'https://xget.xi-xu.me/hf'
+os.environ['HF_ENDPOINT'] = 'https://xget.me/hf'
 
 # Define model name
 model_name = 'microsoft/DialoGPT-medium'
@@ -1074,7 +1074,7 @@ print("Model and tokenizer loaded successfully!")
 import requests
 
 # Set API base URL to use Xget
-base_url = "https://xget.xi-xu.me/civitai"
+base_url = "https://xget.me/civitai"
 
 # Get model information
 def get_model_info(model_id):
@@ -1116,10 +1116,10 @@ if model_info['modelVersions']:
 
 ```bash
 # Temporarily use Xget mirror
-npm install --registry https://xget.xi-xu.me/npm/
+npm install --registry https://xget.me/npm/
 
 # Globally configure npm mirror
-npm config set registry https://xget.xi-xu.me/npm/
+npm config set registry https://xget.me/npm/
 
 # Verify configuration
 npm config get registry
@@ -1130,7 +1130,7 @@ npm config get registry
 ```toml
 # bunfig.toml (project-level) or ~/.bunfig.toml (global)
 [install]
-registry = "https://xget.xi-xu.me/npm/"
+registry = "https://xget.me/npm/"
 ```
 
 ```bash
@@ -1138,7 +1138,7 @@ registry = "https://xget.xi-xu.me/npm/"
 bun install
 
 # Bun also supports .npmrc, so you can reuse existing npm registry settings
-echo "registry=https://xget.xi-xu.me/npm/" > .npmrc
+echo "registry=https://xget.me/npm/" > .npmrc
 bun install
 ```
 
@@ -1146,7 +1146,7 @@ bun install
 
 ```bash
 # Configure project-level mirror in .npmrc (.npmrc can be reused by npm / Bun)
-echo "registry=https://xget.xi-xu.me/npm/" > .npmrc
+echo "registry=https://xget.me/npm/" > .npmrc
 
 # Install dependencies with npm
 npm install
@@ -1161,11 +1161,11 @@ bun install
 
 ```bash
 # Temporarily use Xget mirror
-pip install requests -i https://xget.xi-xu.me/pypi/simple/
+pip install requests -i https://xget.me/pypi/simple/
 
 # Globally configure pip mirror
-pip config set global.index-url https://xget.xi-xu.me/pypi/simple/
-pip config set global.trusted-host xget.xi-xu.me
+pip config set global.index-url https://xget.me/pypi/simple/
+pip config set global.trusted-host xget.me
 
 # Verify configuration
 pip config list
@@ -1178,15 +1178,15 @@ pip config list
 mkdir -p ~/.pip
 cat > ~/.pip/pip.conf << EOF
 [global]
-index-url = https://xget.xi-xu.me/pypi/simple/
-trusted-host = xget.xi-xu.me
+index-url = https://xget.me/pypi/simple/
+trusted-host = xget.me
 EOF
 
 # Or create pip.conf in project root directory
 cat > pip.conf << EOF
 [global]
-index-url = https://xget.xi-xu.me/pypi/simple/
-trusted-host = xget.xi-xu.me
+index-url = https://xget.me/pypi/simple/
+trusted-host = xget.me
 EOF
 
 # Install using configuration file
@@ -1197,8 +1197,8 @@ pip install -r requirements.txt --config-file pip.conf
 
 ```txt
 # requirements.txt
---index-url https://xget.xi-xu.me/pypi/simple/
---trusted-host xget.xi-xu.me
+--index-url https://xget.me/pypi/simple/
+--trusted-host xget.me
 
 requests>=2.25.0
 numpy>=1.21.0
@@ -1212,16 +1212,16 @@ matplotlib>=3.4.0
 
 ```bash
 # Configure default channel mirrors
-conda config --add default_channels https://xget.xi-xu.me/conda/pkgs/msys2
-conda config --add default_channels https://xget.xi-xu.me/conda/pkgs/r
-conda config --add default_channels https://xget.xi-xu.me/conda/pkgs/main
+conda config --add default_channels https://xget.me/conda/pkgs/msys2
+conda config --add default_channels https://xget.me/conda/pkgs/r
+conda config --add default_channels https://xget.me/conda/pkgs/main
 
 # Configure all community channel mirrors (recommended)
-conda config --set channel_alias https://xget.xi-xu.me/conda/community
+conda config --set channel_alias https://xget.me/conda/community
 
 # Or configure specific community channels
-conda config --add channels https://xget.xi-xu.me/conda/community/conda-forge
-conda config --add channels https://xget.xi-xu.me/conda/community/bioconda
+conda config --add channels https://xget.me/conda/community/conda-forge
+conda config --add channels https://xget.me/conda/community/bioconda
 
 # Set channel priority
 conda config --set channel_priority strict
@@ -1237,10 +1237,10 @@ project root directory:
 
 ```yaml
 default_channels:
-  - https://xget.xi-xu.me/conda/pkgs/main
-  - https://xget.xi-xu.me/conda/pkgs/r
-  - https://xget.xi-xu.me/conda/pkgs/msys2
-channel_alias: https://xget.xi-xu.me/conda/community
+  - https://xget.me/conda/pkgs/main
+  - https://xget.me/conda/pkgs/r
+  - https://xget.me/conda/pkgs/msys2
+channel_alias: https://xget.me/conda/community
 channel_priority: strict
 show_channel_urls: true
 ```
@@ -1253,10 +1253,10 @@ The environment file can directly specify complete mirror URLs:
 # environment.yml
 name: myproject
 channels:
-  - https://xget.xi-xu.me/conda/pkgs/main
-  - https://xget.xi-xu.me/conda/pkgs/r
-  - https://xget.xi-xu.me/conda/community/bioconda
-  - https://xget.xi-xu.me/conda/community/conda-forge
+  - https://xget.me/conda/pkgs/main
+  - https://xget.me/conda/pkgs/r
+  - https://xget.me/conda/community/bioconda
+  - https://xget.me/conda/community/conda-forge
 dependencies:
   - python=3.11
   - numpy>=1.24.0
@@ -1288,7 +1288,7 @@ conda env update -f environment.yml
       <id>xget-maven-central</id>
       <mirrorOf>central</mirrorOf>
       <name>Xget Maven Central Mirror</name>
-      <url>https://xget.xi-xu.me/maven/maven2</url>
+      <url>https://xget.me/maven/maven2</url>
     </mirror>
   </mirrors>
 </settings>
@@ -1303,7 +1303,7 @@ conda env update -f environment.yml
     <repository>
       <id>xget-maven-central</id>
       <name>Xget Maven Central</name>
-      <url>https://xget.xi-xu.me/maven/maven2</url>
+      <url>https://xget.me/maven/maven2</url>
     </repository>
   </repositories>
 
@@ -1311,7 +1311,7 @@ conda env update -f environment.yml
     <pluginRepository>
       <id>xget-maven-central</id>
       <name>Xget Maven Central</name>
-      <url>https://xget.xi-xu.me/maven/maven2</url>
+      <url>https://xget.me/maven/maven2</url>
     </pluginRepository>
   </pluginRepositories>
 </project>
@@ -1319,11 +1319,11 @@ conda env update -f environment.yml
 
 ```bash
 # Specify mirror using command line
-mvn clean install -Dmaven.repo.remote=https://xget.xi-xu.me/maven/maven2
+mvn clean install -Dmaven.repo.remote=https://xget.me/maven/maven2
 
 # Download specific dependency
 mvn dependency:get -Dartifact=org.springframework:spring-core:5.3.21 \
-  -DremoteRepositories=https://xget.xi-xu.me/maven/maven2
+  -DremoteRepositories=https://xget.me/maven/maven2
 ```
 
 ### Apache Software Download Acceleration
@@ -1332,36 +1332,36 @@ mvn dependency:get -Dartifact=org.springframework:spring-core:5.3.21 \
 
 ```bash
 # Download Apache Kafka
-wget https://xget.xi-xu.me/apache/kafka/3.6.1/kafka_2.13-3.6.1.tgz
+wget https://xget.me/apache/kafka/3.6.1/kafka_2.13-3.6.1.tgz
 
 # Download Apache Maven
-curl -L -O https://xget.xi-xu.me/apache/maven/maven-3/3.9.5/binaries/apache-maven-3.9.5-bin.tar.gz
+curl -L -O https://xget.me/apache/maven/maven-3/3.9.5/binaries/apache-maven-3.9.5-bin.tar.gz
 
 # Download Apache Spark
-aria2c https://xget.xi-xu.me/apache/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz
+aria2c https://xget.me/apache/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz
 
 # Download Apache Hadoop
-wget https://xget.xi-xu.me/apache/hadoop/common/hadoop-3.3.6/hadoop-3.3.6.tar.gz
+wget https://xget.me/apache/hadoop/common/hadoop-3.3.6/hadoop-3.3.6.tar.gz
 
 # Download Apache Flink
-curl -L -O https://xget.xi-xu.me/apache/flink/flink-1.18.1/flink-1.18.1-bin-scala_2.12.tgz
+curl -L -O https://xget.me/apache/flink/flink-1.18.1/flink-1.18.1-bin-scala_2.12.tgz
 ```
 
 #### Common Apache Software Downloads
 
 ```bash
 # Big data related
-wget https://xget.xi-xu.me/apache/hive/hive-3.1.3/apache-hive-3.1.3-bin.tar.gz
-wget https://xget.xi-xu.me/apache/hbase/2.5.7/hbase-2.5.7-bin.tar.gz
-wget https://xget.xi-xu.me/apache/zookeeper/zookeeper-3.8.4/apache-zookeeper-3.8.4-bin.tar.gz
+wget https://xget.me/apache/hive/hive-3.1.3/apache-hive-3.1.3-bin.tar.gz
+wget https://xget.me/apache/hbase/2.5.7/hbase-2.5.7-bin.tar.gz
+wget https://xget.me/apache/zookeeper/zookeeper-3.8.4/apache-zookeeper-3.8.4-bin.tar.gz
 
 # Web servers
-wget https://xget.xi-xu.me/apache/httpd/httpd-2.4.59.tar.gz
-wget https://xget.xi-xu.me/apache/tomcat/tomcat-10/v10.1.19/bin/apache-tomcat-10.1.19.tar.gz
+wget https://xget.me/apache/httpd/httpd-2.4.59.tar.gz
+wget https://xget.me/apache/tomcat/tomcat-10/v10.1.19/bin/apache-tomcat-10.1.19.tar.gz
 
 # Development tools
-wget https://xget.xi-xu.me/apache/ant/1.10.14/apache-ant-1.10.14-bin.tar.gz
-wget https://xget.xi-xu.me/apache/netbeans/netbeans/20/netbeans-20-bin.zip
+wget https://xget.me/apache/ant/1.10.14/apache-ant-1.10.14-bin.tar.gz
+wget https://xget.me/apache/netbeans/netbeans/20/netbeans-20-bin.zip
 ```
 
 ### Gradle Package Acceleration
@@ -1372,10 +1372,10 @@ wget https://xget.xi-xu.me/apache/netbeans/netbeans/20/netbeans-20-bin.zip
 // Configure Gradle mirror in build.gradle
 repositories {
     maven {
-        url 'https://xget.xi-xu.me/maven/maven2'
+        url 'https://xget.me/maven/maven2'
     }
     gradlePluginPortal {
-        url 'https://xget.xi-xu.me/gradle/m2'
+        url 'https://xget.me/gradle/m2'
     }
 }
 
@@ -1383,7 +1383,7 @@ repositories {
 pluginManagement {
     repositories {
         maven {
-            url 'https://xget.xi-xu.me/gradle/m2'
+            url 'https://xget.me/gradle/m2'
         }
         gradlePluginPortal()
     }
@@ -1397,7 +1397,7 @@ pluginManagement {
 allprojects {
     repositories {
         maven {
-            url 'https://xget.xi-xu.me/maven/maven2'
+            url 'https://xget.me/maven/maven2'
         }
     }
 }
@@ -1406,7 +1406,7 @@ settingsEvaluated { settings ->
     settings.pluginManagement {
         repositories {
             maven {
-                url 'https://xget.xi-xu.me/gradle/m2'
+                url 'https://xget.me/gradle/m2'
             }
             gradlePluginPortal()
         }
@@ -1416,7 +1416,7 @@ settingsEvaluated { settings ->
 
 ```bash
 # Specify mirror using command line
-gradle build -Dmaven.repo.remote=https://xget.xi-xu.me/maven/maven2
+gradle build -Dmaven.repo.remote=https://xget.me/maven/maven2
 
 # Refresh dependencies
 gradle build --refresh-dependencies
@@ -1428,10 +1428,10 @@ gradle build --refresh-dependencies
 
 ```bash
 # Set Homebrew environment variables to use Xget mirror
-export HOMEBREW_BREW_GIT_REMOTE="https://xget.xi-xu.me/homebrew/brew.git"
-export HOMEBREW_CORE_GIT_REMOTE="https://xget.xi-xu.me/homebrew/homebrew-core.git"
-export HOMEBREW_API_DOMAIN="https://xget.xi-xu.me/homebrew/api"
-export HOMEBREW_BOTTLE_DOMAIN="https://xget.xi-xu.me/homebrew/bottles"
+export HOMEBREW_BREW_GIT_REMOTE="https://xget.me/homebrew/brew.git"
+export HOMEBREW_CORE_GIT_REMOTE="https://xget.me/homebrew/homebrew-core.git"
+export HOMEBREW_API_DOMAIN="https://xget.me/homebrew/api"
+export HOMEBREW_BOTTLE_DOMAIN="https://xget.me/homebrew/bottles"
 
 # Update Homebrew
 brew update
@@ -1441,16 +1441,16 @@ brew update
 
 ```bash
 # For bash users, add to ~/.bash_profile
-echo 'export HOMEBREW_BREW_GIT_REMOTE="https://xget.xi-xu.me/homebrew/brew.git"' >> ~/.bash_profile
-echo 'export HOMEBREW_CORE_GIT_REMOTE="https://xget.xi-xu.me/homebrew/homebrew-core.git"' >> ~/.bash_profile
-echo 'export HOMEBREW_API_DOMAIN="https://xget.xi-xu.me/homebrew/api"' >> ~/.bash_profile
-echo 'export HOMEBREW_BOTTLE_DOMAIN="https://xget.xi-xu.me/homebrew/bottles"' >> ~/.bash_profile
+echo 'export HOMEBREW_BREW_GIT_REMOTE="https://xget.me/homebrew/brew.git"' >> ~/.bash_profile
+echo 'export HOMEBREW_CORE_GIT_REMOTE="https://xget.me/homebrew/homebrew-core.git"' >> ~/.bash_profile
+echo 'export HOMEBREW_API_DOMAIN="https://xget.me/homebrew/api"' >> ~/.bash_profile
+echo 'export HOMEBREW_BOTTLE_DOMAIN="https://xget.me/homebrew/bottles"' >> ~/.bash_profile
 
 # For zsh users, add to ~/.zprofile
-echo 'export HOMEBREW_BREW_GIT_REMOTE="https://xget.xi-xu.me/homebrew/brew.git"' >> ~/.zprofile
-echo 'export HOMEBREW_CORE_GIT_REMOTE="https://xget.xi-xu.me/homebrew/homebrew-core.git"' >> ~/.zprofile
-echo 'export HOMEBREW_API_DOMAIN="https://xget.xi-xu.me/homebrew/api"' >> ~/.zprofile
-echo 'export HOMEBREW_BOTTLE_DOMAIN="https://xget.xi-xu.me/homebrew/bottles"' >> ~/.zprofile
+echo 'export HOMEBREW_BREW_GIT_REMOTE="https://xget.me/homebrew/brew.git"' >> ~/.zprofile
+echo 'export HOMEBREW_CORE_GIT_REMOTE="https://xget.me/homebrew/homebrew-core.git"' >> ~/.zprofile
+echo 'export HOMEBREW_API_DOMAIN="https://xget.me/homebrew/api"' >> ~/.zprofile
+echo 'export HOMEBREW_BOTTLE_DOMAIN="https://xget.me/homebrew/bottles"' >> ~/.zprofile
 ```
 
 #### Use in Project
@@ -1486,10 +1486,10 @@ echo $HOMEBREW_BOTTLE_DOMAIN
 
 ```bash
 # Temporarily use Xget mirror
-gem install rails --source https://xget.xi-xu.me/rubygems/
+gem install rails --source https://xget.me/rubygems/
 
 # Globally configure RubyGems mirror
-gem sources --add https://xget.xi-xu.me/rubygems/
+gem sources --add https://xget.me/rubygems/
 gem sources --remove https://rubygems.org/
 
 # Verify configuration
@@ -1500,7 +1500,7 @@ gem sources -l
 
 ```ruby
 # Configure project-level mirror in Gemfile
-source 'https://xget.xi-xu.me/rubygems/'
+source 'https://xget.me/rubygems/'
 
 gem 'rails', '~> 7.0.0'
 gem 'pg', '~> 1.1'
@@ -1509,7 +1509,7 @@ gem 'puma', '~> 5.0'
 
 ```bash
 # Install using bundle
-bundle config mirror.https://rubygems.org https://xget.xi-xu.me/rubygems/
+bundle config mirror.https://rubygems.org https://xget.me/rubygems/
 bundle install
 ```
 
@@ -1519,10 +1519,10 @@ bundle install
 
 ```r
 # Temporarily use Xget CRAN mirror in R
-install.packages("ggplot2", repos = "https://xget.xi-xu.me/cran/")
+install.packages("ggplot2", repos = "https://xget.me/cran/")
 
 # Globally configure CRAN mirror
-options(repos = c(CRAN = "https://xget.xi-xu.me/cran/"))
+options(repos = c(CRAN = "https://xget.me/cran/"))
 
 # Verify configuration
 getOption("repos")
@@ -1533,7 +1533,7 @@ getOption("repos")
 ```r
 # Configure global mirror in .Rprofile file in user home directory
 options(repos = c(
-  CRAN = "https://xget.xi-xu.me/cran/",
+  CRAN = "https://xget.me/cran/",
   BioCsoft = "https://bioconductor.org/packages/release/bioc",
   BioCann = "https://bioconductor.org/packages/release/data/annotation",
   BioCexp = "https://bioconductor.org/packages/release/data/experiment"
@@ -1548,22 +1548,22 @@ options(download.file.method = "libcurl")
 ```r
 # Specify mirror in project's renv.lock or script
 renv::init()
-renv::settings$repos.override(c(CRAN = "https://xget.xi-xu.me/cran/"))
+renv::settings$repos.override(c(CRAN = "https://xget.me/cran/"))
 
 # Install packages
 install.packages(c("dplyr", "ggplot2", "tidyr"))
 
 # Or use pak package manager
-pak::pkg_install("tidyverse", repos = "https://xget.xi-xu.me/cran/")
+pak::pkg_install("tidyverse", repos = "https://xget.me/cran/")
 ```
 
 ```bash
 # Install packages using R script in command line
-Rscript -e "options(repos = c(CRAN = 'https://xget.xi-xu.me/cran/')); install.packages('ggplot2')"
+Rscript -e "options(repos = c(CRAN = 'https://xget.me/cran/')); install.packages('ggplot2')"
 
 # Batch install packages
 Rscript -e "
-options(repos = c(CRAN = 'https://xget.xi-xu.me/cran/'))
+options(repos = c(CRAN = 'https://xget.me/cran/'))
 packages <- c('dplyr', 'ggplot2', 'tidyr', 'readr')
 install.packages(packages)
 "
@@ -1575,12 +1575,12 @@ install.packages(packages)
 
 ```bash
 # Configure CPAN to use Xget mirror
-cpan o conf urllist push https://xget.xi-xu.me/cpan/
+cpan o conf urllist push https://xget.me/cpan/
 cpan o conf commit
 
 # Or directly edit configuration file ~/.cpan/CPAN/MyConfig.pm
 # Add:
-# 'urllist' => [q[https://xget.xi-xu.me/cpan/]],
+# 'urllist' => [q[https://xget.me/cpan/]],
 ```
 
 #### Use cpanm to Install Modules
@@ -1590,11 +1590,11 @@ cpan o conf commit
 curl -L https://cpanmin.us | perl - --sudo App::cpanminus
 
 # Install modules using Xget mirror
-cpanm --mirror https://xget.xi-xu.me/cpan/ DBI
-cpanm --mirror https://xget.xi-xu.me/cpan/ Mojolicious
+cpanm --mirror https://xget.me/cpan/ DBI
+cpanm --mirror https://xget.me/cpan/ Mojolicious
 
 # Install dependencies from Makefile.PL
-cpanm --mirror https://xget.xi-xu.me/cpan/ --installdeps .
+cpanm --mirror https://xget.me/cpan/ --installdeps .
 ```
 
 #### Use in Project
@@ -1606,7 +1606,7 @@ requires 'Mojolicious';
 requires 'JSON';
 
 # Then install using Xget mirror
-cpanm --mirror https://xget.xi-xu.me/cpan/ --installdeps .
+cpanm --mirror https://xget.me/cpan/ --installdeps .
 ```
 
 ### TeX/LaTeX Package Acceleration
@@ -1615,7 +1615,7 @@ cpanm --mirror https://xget.xi-xu.me/cpan/ --installdeps .
 
 ```bash
 # Configure tlmgr to use Xget CTAN mirror
-tlmgr option repository https://xget.xi-xu.me/ctan/systems/texlive/tlnet
+tlmgr option repository https://xget.me/ctan/systems/texlive/tlnet
 
 # Update package database
 tlmgr update --self --all
@@ -1629,7 +1629,7 @@ tlmgr install tikz
 
 ```bash
 # Windows MiKTeX configuration
-mpm --set-repository=https://xget.xi-xu.me/ctan/systems/win32/miktex
+mpm --set-repository=https://xget.me/ctan/systems/win32/miktex
 
 # Update package database
 mpm --update-db
@@ -1657,11 +1657,11 @@ tlmgr install algorithm2e
 
 ```bash
 # Configure Go module proxy
-export GOPROXY=https://xget.xi-xu.me/golang,direct
+export GOPROXY=https://xget.me/golang,direct
 export GOSUMDB=off
 
 # Or permanently configure
-go env -w GOPROXY=https://xget.xi-xu.me/golang,direct
+go env -w GOPROXY=https://xget.me/golang,direct
 go env -w GOSUMDB=off
 
 # Verify configuration
@@ -1687,13 +1687,13 @@ go clean -modcache
 
 ```bash
 # Add Xget package source
-dotnet nuget add source https://xget.xi-xu.me/nuget/v3/index.json -n xget
+dotnet nuget add source https://xget.me/nuget/v3/index.json -n xget
 
 # List package sources
 dotnet nuget list source
 
 # Use in project
-dotnet restore --source https://xget.xi-xu.me/nuget/v3/index.json
+dotnet restore --source https://xget.me/nuget/v3/index.json
 ```
 
 #### Configure in NuGet.Config
@@ -1703,7 +1703,7 @@ dotnet restore --source https://xget.xi-xu.me/nuget/v3/index.json
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
   <packageSources>
-    <add key="xget" value="https://xget.xi-xu.me/nuget/v3/index.json" />
+    <add key="xget" value="https://xget.me/nuget/v3/index.json" />
   </packageSources>
 </configuration>
 ```
@@ -1720,7 +1720,7 @@ cat >> ~/.cargo/config.toml << EOF
 replace-with = "xget"
 
 [source.xget]
-registry = "https://xget.xi-xu.me/crates/"
+registry = "https://xget.me/crates/"
 EOF
 
 # Verify configuration
@@ -1754,10 +1754,10 @@ cargo add clap
 
 ```bash
 # Globally configure Composer mirror
-composer config -g repo.packagist composer https://xget.xi-xu.me/packagist/
+composer config -g repo.packagist composer https://xget.me/packagist/
 
 # Project-level configuration
-composer config repo.packagist composer https://xget.xi-xu.me/packagist/
+composer config repo.packagist composer https://xget.me/packagist/
 
 # Verify configuration
 composer config -l
@@ -1770,7 +1770,7 @@ composer config -l
   "repositories": [
     {
       "type": "composer",
-      "url": "https://xget.xi-xu.me/packagist/"
+      "url": "https://xget.me/packagist/"
     }
   ],
   "require": {
@@ -1792,7 +1792,7 @@ flatpak remote-add --if-not-exists flathub \
 
 # Then repoint the existing Flathub remote to the Xget mirror
 flatpak remote-modify flathub \
-  --url=https://xget.xi-xu.me/flathub/repo/
+  --url=https://xget.me/flathub/repo/
 
 # Restore the default upstream when needed
 flatpak remote-modify flathub \
@@ -1809,22 +1809,22 @@ system-wide remotes, run the same commands with `sudo`.
 
 ```url
 # OSTree repository metadata
-https://xget.xi-xu.me/flathub/repo/config
-https://xget.xi-xu.me/flathub/repo/summary
-https://xget.xi-xu.me/flathub/repo/summary.sig
-https://xget.xi-xu.me/flathub/repo/summary.idx
-https://xget.xi-xu.me/flathub/repo/summaries/...
+https://xget.me/flathub/repo/config
+https://xget.me/flathub/repo/summary
+https://xget.me/flathub/repo/summary.sig
+https://xget.me/flathub/repo/summary.idx
+https://xget.me/flathub/repo/summaries/...
 
 # Flatpak remote descriptor
-https://xget.xi-xu.me/flathub/repo/flathub.flatpakrepo
+https://xget.me/flathub/repo/flathub.flatpakrepo
 
 # App reference descriptor
-https://xget.xi-xu.me/flathub/repo/appstream/[app-id].flatpakref
+https://xget.me/flathub/repo/appstream/[app-id].flatpakref
 
 # Repository objects and static deltas
-https://xget.xi-xu.me/flathub/repo/objects/...
-https://xget.xi-xu.me/flathub/repo/deltas/...
-https://xget.xi-xu.me/flathub/repo/delta-indexes/...
+https://xget.me/flathub/repo/objects/...
+https://xget.me/flathub/repo/deltas/...
+https://xget.me/flathub/repo/delta-indexes/...
 ```
 
 #### Usage Examples
@@ -1841,7 +1841,7 @@ flatpak install flathub org.gnome.gedit
 
 # Install directly from a rewritten .flatpakref
 flatpak install --from \
-  https://xget.xi-xu.me/flathub/repo/appstream/org.gnome.gedit.flatpakref
+  https://xget.me/flathub/repo/appstream/org.gnome.gedit.flatpakref
 
 # Print libcurl HTTP traces when troubleshooting
 OSTREE_DEBUG_HTTP=1 flatpak remote-ls flathub
@@ -1859,12 +1859,12 @@ flatpak update
 sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
 
 # Configure Debian mirror
-echo "deb https://xget.xi-xu.me/debian/debian bookworm main" | sudo tee /etc/apt/sources.list
-echo "deb https://xget.xi-xu.me/debian/debian-security bookworm-security main" | sudo tee -a /etc/apt/sources.list
+echo "deb https://xget.me/debian/debian bookworm main" | sudo tee /etc/apt/sources.list
+echo "deb https://xget.me/debian/debian-security bookworm-security main" | sudo tee -a /etc/apt/sources.list
 
 # Configure Ubuntu mirror
-echo "deb https://xget.xi-xu.me/ubuntu/ubuntu jammy main restricted universe multiverse" | sudo tee /etc/apt/sources.list
-echo "deb https://xget.xi-xu.me/ubuntu/ubuntu jammy-updates main restricted universe multiverse" | sudo tee -a /etc/apt/sources.list
+echo "deb https://xget.me/ubuntu/ubuntu jammy main restricted universe multiverse" | sudo tee /etc/apt/sources.list
+echo "deb https://xget.me/ubuntu/ubuntu jammy-updates main restricted universe multiverse" | sudo tee -a /etc/apt/sources.list
 
 # Update package list
 sudo apt update
@@ -1875,7 +1875,7 @@ sudo apt update
 ```bash
 # Configure Fedora mirror
 sudo sed -i 's|^metalink=|#metalink=|g' /etc/yum.repos.d/fedora*.repo
-sudo sed -i 's|^#baseurl=http://download.example/pub/fedora/linux|baseurl=https://xget.xi-xu.me/fedora/pub/fedora/linux|g' /etc/yum.repos.d/fedora*.repo
+sudo sed -i 's|^#baseurl=http://download.example/pub/fedora/linux|baseurl=https://xget.me/fedora/pub/fedora/linux|g' /etc/yum.repos.d/fedora*.repo
 
 # Update package cache
 sudo dnf makecache
@@ -1886,7 +1886,7 @@ sudo dnf makecache
 ```bash
 # Configure Rocky Linux mirror
 sudo sed -i 's|^mirrorlist=|#mirrorlist=|g' /etc/yum.repos.d/rocky*.repo
-sudo sed -i 's|^#baseurl=http://dl.rockylinux.org|baseurl=https://xget.xi-xu.me/rocky|g' /etc/yum.repos.d/rocky*.repo
+sudo sed -i 's|^#baseurl=http://dl.rockylinux.org|baseurl=https://xget.me/rocky|g' /etc/yum.repos.d/rocky*.repo
 
 # Update package cache
 sudo dnf makecache
@@ -1897,11 +1897,11 @@ sudo dnf makecache
 ```bash
 # Configure openSUSE Leap mirror
 sudo zypper mr -d repo-oss
-sudo zypper ar -f https://xget.xi-xu.me/opensuse/distribution/leap/15.5/repo/oss/ repo-oss-xget
+sudo zypper ar -f https://xget.me/opensuse/distribution/leap/15.5/repo/oss/ repo-oss-xget
 
 # Configure openSUSE Tumbleweed mirror
 sudo zypper mr -d repo-oss
-sudo zypper ar -f https://xget.xi-xu.me/opensuse/tumbleweed/repo/oss/ repo-oss-xget
+sudo zypper ar -f https://xget.me/opensuse/tumbleweed/repo/oss/ repo-oss-xget
 
 # Refresh software sources
 sudo zypper refresh
@@ -1917,7 +1917,7 @@ sudo zypper lr -u
 sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
 
 # Configure Arch Linux mirror
-echo 'Server = https://xget.xi-xu.me/arch/$repo/os/$arch' | sudo tee /etc/pacman.d/mirrorlist
+echo 'Server = https://xget.me/arch/$repo/os/$arch' | sudo tee /etc/pacman.d/mirrorlist
 
 # Update package database
 sudo pacman -Sy
@@ -1929,14 +1929,14 @@ sudo pacman -Sy
 
 ```bash
 # Download arXiv paper PDF
-wget https://xget.xi-xu.me/arxiv/pdf/2301.07041.pdf
+wget https://xget.me/arxiv/pdf/2301.07041.pdf
 
 # Download paper source
-curl -L -O https://xget.xi-xu.me/arxiv/e-print/2301.07041
+curl -L -O https://xget.me/arxiv/e-print/2301.07041
 
 # Batch download multiple papers
 for id in 2301.07041 2302.13971 2303.08774; do
-  wget https://xget.xi-xu.me/arxiv/pdf/${id}.pdf
+  wget https://xget.me/arxiv/pdf/${id}.pdf
 done
 ```
 
@@ -1947,7 +1947,7 @@ done
 import requests
 
 def download_arxiv_paper(arxiv_id, output_path):
-    url = f"https://xget.xi-xu.me/arxiv/pdf/{arxiv_id}.pdf"
+    url = f"https://xget.me/arxiv/pdf/{arxiv_id}.pdf"
     response = requests.get(url)
 
     if response.status_code == 200:
@@ -1966,36 +1966,36 @@ download_arxiv_paper("2301.07041", "attention_is_all_you_need.pdf")
 #### Configure F-Droid Client to Use Xget Mirror
 
 1. In F-Droid app, go to **Settings** → **Repositories**
-2. Click **+** and enter repository URL: `https://xget.xi-xu.me/fdroid/repo`
+2. Click **+** and enter repository URL: `https://xget.me/fdroid/repo`
 3. Click **Add** then click **Add Mirror**
 
 #### Supported F-Droid Services
 
 ```url
 # F-Droid app APK download
-https://xget.xi-xu.me/fdroid/repo/[package-name]_[version-code].apk
+https://xget.me/fdroid/repo/[package-name]_[version-code].apk
 
 # F-Droid repository index
-https://xget.xi-xu.me/fdroid/repo/index-v1.jar
+https://xget.me/fdroid/repo/index-v1.jar
 
 # F-Droid app icons
-https://xget.xi-xu.me/fdroid/repo/icons-640/[package-name].[version-code].png
+https://xget.me/fdroid/repo/icons-640/[package-name].[version-code].png
 
 # F-Droid API endpoints
-https://xget.xi-xu.me/fdroid/api/v1/packages/[package-name]
+https://xget.me/fdroid/api/v1/packages/[package-name]
 ```
 
 #### Usage Examples
 
 ```bash
 # Directly download F-Droid client APK
-wget https://xget.xi-xu.me/fdroid/repo/org.fdroid.fdroid_1016050.apk
+wget https://xget.me/fdroid/repo/org.fdroid.fdroid_1016050.apk
 
 # Download other open source apps
-curl -L -O https://xget.xi-xu.me/fdroid/repo/org.mozilla.fennec_fdroid_1014000.apk
+curl -L -O https://xget.me/fdroid/repo/org.mozilla.fennec_fdroid_1014000.apk
 
 # Get app information
-curl https://xget.xi-xu.me/fdroid/api/v1/packages/org.fdroid.fdroid
+curl https://xget.me/fdroid/api/v1/packages/org.fdroid.fdroid
 ```
 
 #### Batch App Management
@@ -2019,7 +2019,7 @@ mkdir -p fdroid_apps
 # Batch download apps
 for app in "${apps[@]}"; do
     echo "Downloading: $app"
-    wget -P fdroid_apps "https://xget.xi-xu.me/fdroid/repo/$app"
+    wget -P fdroid_apps "https://xget.me/fdroid/repo/$app"
 done
 
 echo "All apps downloaded!"
@@ -2037,7 +2037,7 @@ For Android developers, F-Droid mirror can be integrated into build scripts:
 // Configure F-Droid dependency check in build.gradle
 task checkFDroidAvailability {
     doLast {
-        def fdroidUrl = "https://xget.xi-xu.me/fdroid/api/v1/packages/${project.name}"
+        def fdroidUrl = "https://xget.me/fdroid/api/v1/packages/${project.name}"
         try {
             def connection = new URL(fdroidUrl).openConnection()
             connection.requestMethod = 'GET'
@@ -2066,7 +2066,7 @@ configuration methods of domestic mirrors like Tsinghua mirror.
 1. Log in to Jenkins management interface
 2. Go to **Manage Jenkins** → **Plugins** → **Advanced**
 3. In the **Update Site** section, change the URL to
-   `https://xget.xi-xu.me/jenkins/update-center.json`
+   `https://xget.me/jenkins/update-center.json`
 4. Click **Submit** to save configuration
 
 ##### Method 2: Modify Configuration File
@@ -2077,7 +2077,7 @@ configuration methods of domestic mirrors like Tsinghua mirror.
 sudo nano /var/lib/jenkins/hudson.model.UpdateCenter.xml
 
 # Change URL to:
-# <url>https://xget.xi-xu.me/jenkins/update-center.json</url>
+# <url>https://xget.me/jenkins/update-center.json</url>
 
 # Restart Jenkins service
 sudo systemctl restart jenkins
@@ -2087,29 +2087,29 @@ sudo systemctl restart jenkins
 
 ```url
 # Jenkins update center JSON
-https://xget.xi-xu.me/jenkins/update-center.json
+https://xget.me/jenkins/update-center.json
 
 # Jenkins update center (actual JSON format)
-https://xget.xi-xu.me/jenkins/update-center.actual.json
+https://xget.me/jenkins/update-center.actual.json
 
 # Jenkins plugin download
-https://xget.xi-xu.me/jenkins/download/plugins/[plugin-name]/[version]/[plugin-name].hpi
+https://xget.me/jenkins/download/plugins/[plugin-name]/[version]/[plugin-name].hpi
 
 # Experimental plugin update center
-https://xget.xi-xu.me/jenkins/experimental/update-center.json
+https://xget.me/jenkins/experimental/update-center.json
 ```
 
 #### Usage Examples
 
 ```bash
 # Download Maven plugin
-wget https://xget.xi-xu.me/jenkins/download/plugins/maven-plugin/3.27/maven-plugin.hpi
+wget https://xget.me/jenkins/download/plugins/maven-plugin/3.27/maven-plugin.hpi
 
 # Download Git plugin
-curl -L -O https://xget.xi-xu.me/jenkins/download/plugins/git/5.2.1/git.hpi
+curl -L -O https://xget.me/jenkins/download/plugins/git/5.2.1/git.hpi
 
 # Get update center information
-curl https://xget.xi-xu.me/jenkins/update-center.json
+curl https://xget.me/jenkins/update-center.json
 
 # Batch download common plugins
 cat > download_jenkins_plugins.sh << 'EOF'
@@ -2132,7 +2132,7 @@ for plugin in "${plugins[@]}"; do
     name=$(echo $plugin | cut -d: -f1)
     version=$(echo $plugin | cut -d: -f2)
     echo "Downloading plugin: $name v$version"
-    wget -P jenkins_plugins "https://xget.xi-xu.me/jenkins/download/plugins/$name/$version/$name.hpi"
+    wget -P jenkins_plugins "https://xget.me/jenkins/download/plugins/$name/$version/$name.hpi"
 done
 
 echo "All plugins downloaded!"
@@ -2148,7 +2148,7 @@ For Jenkins deployment in offline environments:
 
 ```bash
 # 1. Download Jenkins core file
-wget https://xget.xi-xu.me/jenkins/war/jenkins.war
+wget https://xget.me/jenkins/war/jenkins.war
 
 # 2. Create plugin packaging script
 cat > prepare_jenkins_offline.sh << 'EOF'
@@ -2159,7 +2159,7 @@ mkdir -p jenkins_offline/{plugins,update_center}
 
 # Download update center configuration
 curl -o jenkins_offline/update_center/update-center.json \
-    https://xget.xi-xu.me/jenkins/update-center.json
+    https://xget.me/jenkins/update-center.json
 
 # Essential plugins list
 essential_plugins=(
@@ -2187,7 +2187,7 @@ for plugin in "${essential_plugins[@]}"; do
     version=$(echo $plugin | cut -d: -f2)
     echo "Downloading $name:$version"
     wget -P jenkins_offline/plugins \
-        "https://xget.xi-xu.me/jenkins/download/plugins/$name/$version/$name.hpi"
+        "https://xget.me/jenkins/download/plugins/$name/$version/$name.hpi"
 done
 
 # Create deployment instructions
@@ -2220,7 +2220,7 @@ pipeline {
             steps {
                 script {
                     // Check Maven plugin availability
-                    def pluginUrl = "https://xget.xi-xu.me/jenkins/download/plugins/maven-plugin/3.27/maven-plugin.hpi"
+                    def pluginUrl = "https://xget.me/jenkins/download/plugins/maven-plugin/3.27/maven-plugin.hpi"
 
                     try {
                         def response = httpRequest url: pluginUrl, httpMode: 'HEAD'
@@ -2250,13 +2250,13 @@ pipeline {
 
 ```bash
 # Pull GitHub Container Registry images
-docker pull xget.xi-xu.me/cr/ghcr/nginxinc/nginx-unprivileged:latest
+docker pull xget.me/cr/ghcr/nginxinc/nginx-unprivileged:latest
 
 # Pull Google Container Registry images
-docker pull xget.xi-xu.me/cr/gcr/distroless/base:latest
+docker pull xget.me/cr/gcr/distroless/base:latest
 
 # Pull Microsoft Container Registry images
-docker pull xget.xi-xu.me/cr/mcr/dotnet/runtime:8.0
+docker pull xget.me/cr/mcr/dotnet/runtime:8.0
 ```
 
 #### Kubernetes Deployment Configuration
@@ -2279,11 +2279,11 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: xget.xi-xu.me/cr/ghcr/nginxinc/nginx-unprivileged:latest
+          image: xget.me/cr/ghcr/nginxinc/nginx-unprivileged:latest
           ports:
             - containerPort: 80
         - name: redis
-          image: xget.xi-xu.me/cr/ghcr/bitnami/redis:alpine
+          image: xget.me/cr/ghcr/bitnami/redis:alpine
           ports:
             - containerPort: 6379
 ```
@@ -2295,14 +2295,14 @@ spec:
 version: '3.8'
 services:
   web:
-    image: xget.xi-xu.me/cr/ghcr/nginxinc/nginx-unprivileged:latest
+    image: xget.me/cr/ghcr/nginxinc/nginx-unprivileged:latest
     ports:
       - '80:80'
     volumes:
       - ./html:/usr/share/nginx/html
 
   database:
-    image: xget.xi-xu.me/cr/mcr/mssql/server:2022-latest
+    image: xget.me/cr/mcr/mssql/server:2022-latest
     environment:
       ACCEPT_EULA: Y
       SA_PASSWORD: 'MyStrongPassword123!'
@@ -2310,7 +2310,7 @@ services:
       - mssql_data:/var/opt/mssql
 
   cache:
-    image: xget.xi-xu.me/cr/ghcr/bitnami/redis:alpine
+    image: xget.me/cr/ghcr/bitnami/redis:alpine
     ports:
       - '6379:6379'
 
@@ -2322,7 +2322,7 @@ volumes:
 
 ```dockerfile
 # Use Xget accelerated base images in Dockerfile
-FROM xget.xi-xu.me/cr/ghcr/nodejs/node:18-alpine AS builder
+FROM xget.me/cr/ghcr/nodejs/node:18-alpine AS builder
 
 WORKDIR /app
 COPY package*.json ./
@@ -2332,11 +2332,11 @@ COPY . .
 RUN npm run build
 
 # Production stage
-FROM xget.xi-xu.me/cr/ghcr/nginxinc/nginx-unprivileged:latest
+FROM xget.me/cr/ghcr/nginxinc/nginx-unprivileged:latest
 COPY --from=builder /app/dist /usr/share/nginx/html
 
 # Use Microsoft Container Registry's .NET image
-FROM xget.xi-xu.me/cr/mcr/dotnet/aspnet:8.0 AS runtime
+FROM xget.me/cr/mcr/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
 COPY --from=builder /app/publish .
 ENTRYPOINT ["dotnet", "MyApp.dll"]
@@ -2359,13 +2359,13 @@ jobs:
         run: |
           # Build using Xget's base images
           docker build -t myapp:latest \
-            --build-arg BASE_IMAGE=xget.xi-xu.me/cr/ghcr/nodejs/node:18-alpine .
+            --build-arg BASE_IMAGE=xget.me/cr/ghcr/nodejs/node:18-alpine .
 
       - name: Test with accelerated images
         run: |
           # Test using accelerated images
           docker run --rm \
-            xget.xi-xu.me/cr/mcr/dotnet/runtime:8.0 \
+            xget.me/cr/mcr/dotnet/runtime:8.0 \
             dotnet --version
 ```
 
@@ -2376,11 +2376,11 @@ jobs:
 # Edit /etc/containers/registries.conf
 [[registry]]
 prefix = "ghcr.io"
-location = "xget.xi-xu.me/cr/ghcr"
+location = "xget.me/cr/ghcr"
 
 # Or pull directly
-podman pull xget.xi-xu.me/cr/ghcr/alpine/alpine:latest
-podman pull xget.xi-xu.me/cr/ghcr/nginxinc/nginx-unprivileged:latest
+podman pull xget.me/cr/ghcr/alpine/alpine:latest
+podman pull xget.me/cr/ghcr/nginxinc/nginx-unprivileged:latest
 ```
 
 #### containerd Configuration
@@ -2390,9 +2390,9 @@ podman pull xget.xi-xu.me/cr/ghcr/nginxinc/nginx-unprivileged:latest
 # Edit /etc/containerd/config.toml
 [plugins."io.containerd.grpc.v1.cri".registry.mirrors]
   [plugins."io.containerd.grpc.v1.cri".registry.mirrors."ghcr.io"]
-    endpoint = ["https://xget.xi-xu.me/cr/ghcr"]
+    endpoint = ["https://xget.me/cr/ghcr"]
   [plugins."io.containerd.grpc.v1.cri".registry.mirrors."gcr.io"]
-    endpoint = ["https://xget.xi-xu.me/cr/gcr"]
+    endpoint = ["https://xget.me/cr/gcr"]
 ```
 
 ```bash
@@ -2409,7 +2409,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="your-api-key",
-    base_url="https://xget.xi-xu.me/ip/openai/v1",  # Use Xget
+    base_url="https://xget.me/ip/openai/v1",  # Use Xget
 )
 
 response = client.responses.create(
@@ -2427,7 +2427,7 @@ from anthropic import Anthropic
 
 client = Anthropic(
     api_key="your-api-key",
-    base_url="https://xget.xi-xu.me/ip/anthropic",  # Use Xget
+    base_url="https://xget.me/ip/anthropic",  # Use Xget
 )
 
 message = client.messages.create(
@@ -2452,7 +2452,7 @@ from google.genai import types
 
 client = genai.Client(
     api_key="your-api-key",
-    http_options=types.HttpOptions(base_url="https://xget.xi-xu.me/ip/gemini"),  # Use Xget
+    http_options=types.HttpOptions(base_url="https://xget.me/ip/gemini"),  # Use Xget
 )
 
 response = client.models.generate_content(
@@ -2475,7 +2475,7 @@ providers = [
 ]
 
 for name, key, path, model in providers:
-    client = OpenAI(api_key=key, base_url="https://xget.xi-xu.me/ip" + path)  # Use Xget
+    client = OpenAI(api_key=key, base_url="https://xget.me/ip" + path)  # Use Xget
     response = client.chat.completions.create(
         model=model,
         messages=[{"role": "user", "content": f"Hello, who are you?"}],
@@ -2491,7 +2491,7 @@ import OpenAI from 'openai';
 
 const openaiClient = new OpenAI({
   apiKey: 'your-openai-api-key',
-  baseURL: 'https://xget.xi-xu.me/ip/openai/v1' // Use Xget
+  baseURL: 'https://xget.me/ip/openai/v1' // Use Xget
 });
 
 async function chatWithGPT() {
@@ -2508,7 +2508,7 @@ import Anthropic from '@anthropic-ai/sdk';
 
 const anthropicClient = new Anthropic({
   apiKey: 'your-claude-api-key',
-  baseURL: 'https://xget.xi-xu.me/ip/anthropic' // Use Xget
+  baseURL: 'https://xget.me/ip/anthropic' // Use Xget
 });
 
 async function chatWithClaude() {
@@ -2539,7 +2539,7 @@ async function chatWithGemini() {
     contents: 'Hello, Gemini!',
     config: {
       httpOptions: {
-        baseUrl: 'https://xget.xi-xu.me/ip/gemini' // Use Xget
+        baseUrl: 'https://xget.me/ip/gemini' // Use Xget
       }
     }
   });
@@ -2552,12 +2552,12 @@ async function chatWithGemini() {
 
 ```bash
 # Configure in .env file
-OPENAI_BASE_URL=https://xget.xi-xu.me/ip/openai
-ANTHROPIC_BASE_URL=https://xget.xi-xu.me/ip/anthropic
-GEMINI_BASE_URL=https://xget.xi-xu.me/ip/gemini
-COHERE_BASE_URL=https://xget.xi-xu.me/ip/cohere
-MISTRAL_AI_BASE_URL=https://xget.xi-xu.me/ip/mistralai
-GROQ_BASE_URL=https://xget.xi-xu.me/ip/groq
+OPENAI_BASE_URL=https://xget.me/ip/openai
+ANTHROPIC_BASE_URL=https://xget.me/ip/anthropic
+GEMINI_BASE_URL=https://xget.me/ip/gemini
+COHERE_BASE_URL=https://xget.me/ip/cohere
+MISTRAL_AI_BASE_URL=https://xget.me/ip/mistralai
+GROQ_BASE_URL=https://xget.me/ip/groq
 ```
 
 Then use in code:
